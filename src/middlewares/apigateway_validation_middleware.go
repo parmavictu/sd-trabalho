@@ -12,6 +12,7 @@ func ValidateApiGatewayheader() gin.HandlerFunc {
 		token := context.Request.Header.Get("TOKEN_AUTH")
 		if token != configs.EnvApiGatewayToken() {
 			context.JSON(http.StatusUnauthorized, "Requisition was not authorized.")
+			context.Abort()
 		}
 	}
 }
