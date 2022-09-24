@@ -32,5 +32,7 @@ spec:
     app: trabalho-sd-api
   type: NodePort
   ports:
-    - port: 5000
+  - name: http
+    port: 5000
+    nodePort: 31000
 
