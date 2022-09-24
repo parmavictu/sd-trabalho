@@ -1,16 +1,5 @@
 FROM node:12
 
-ARG NODE_ENV
-ARG DEBUG
-ARG PORT
-ARG TOKEN_AUTH
-ARG COMMAND
-
-ENV NODE_ENV=${NODE_ENV}
-ENV DEBUG=${DEBUG}
-ENV PORT=${PORT}
-ENV TOKEN_AUTH=${TOKEN_AUTH}
-
 RUN echo "\n\n\
 #### ENVIRONMENT\n\
 ENV=${ENV}\n\
@@ -33,15 +22,7 @@ ADD src/ app/
 
 WORKDIR app/
 
-RUN echo ${COMMAND} > script.sh
-
 RUN ls
-
-RUN cat script.sh
-
-RUN cat package.json | grep start
-
-RUN chmod 744 script.sh
 
 EXPOSE ${PORT}
 

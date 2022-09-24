@@ -1,53 +1,53 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-    name: ${ENV_INSTANCE_NAME}
+    name: api-gateway-trabalho-sd
     labels:
-        app: ${ENV_INSTANCE_NAME}
+        app: api-gateway-trabalho-sd
 spec:
-    replicas: ${ENV_REPLICAS}
+    replicas: 2
     selector:
         matchLabels:
-            app: ${ENV_INSTANCE_NAME}
+            app: api-gateway-trabalho-sd
     template:
         metadata:
             labels:
-                app: ${ENV_INSTANCE_NAME}
+                app: api-gateway-trabalho-sd
         spec:
             containers:
-            - image: ${ENV_DOCKER_IMAGE_NAME}
-              imagePullPolicy: ${ENV_IMAGE_PULL_POLICY}
-              name: ${ENV_INSTANCE_NAME}
+            - image: api-gateway-trabalho-sd-image
+              imagePullPolicy: IfNotPresent
+              name: api-gateway-trabalho-sd
 ---
 apiVersion: networking.k8s.io/v1
 kind: Ingress
 metadata:
-  name: ${ENV_INGRESS_NAME}
+  name: api-gateway-trabalho-sd-ingress
 spec:
   rules:
-    - host: ${ENV_HOST_NAME}
+    - host: api-gateway-trabalho-sd.io
       http:
         paths:
           - path: /
             pathType: Prefix
             backend:
               service:
-                name: ${ENV_SERVICE_NAME}
+                name: api-gateway-trabalho-sd-service
                 port:
-                  number: ${ENV_TARGET_PORT}          
+                  number: 5001          
 ---
 apiVersion: v1
 kind: Service
 metadata:
-  name: ${ENV_SERVICE_NAME}  
+  name: api-gateway-trabalho-sd-service
   labels:
-    app: ${ENV_SERVICE_NAME}
+    app: api-gateway-trabalho-sd-service
 spec:
   ports:
-  - nodePort: ${ENV_NODE_PORT}
+  - nodePort: 30000
     port: 80
     protocol: TCP
-    targetPort: ${ENV_TARGET_PORT}
+    targetPort: 5000
   selector:
-    app: ${ENV_INSTANCE_NAME}
+    app: api-gateway-trabalho-sd
   type: NodePort                  
