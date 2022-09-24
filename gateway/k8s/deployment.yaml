@@ -34,7 +34,7 @@ spec:
               service:
                 name: api-gateway-trabalho-sd-service
                 port:
-                  number: 5001          
+                  number: 5000          
 ---
 apiVersion: v1
 kind: Service

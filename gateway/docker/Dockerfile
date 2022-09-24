@@ -1,8 +1,6 @@
 FROM node:12
 
-RUN ls
-
-RUN echo "\n\n\
+RUN echo -e "\n\n\
 #### ENVIRONMENT\n\
 ENV=${ENV}\n\
 DEBUG=${DEBUG}\n\
