@@ -1,0 +1,460 @@
+2022-09-10 01:09:02,792 INFO o.a.j.u.JMeterUtils: Setting Locale to en_EN
+2022-09-10 01:09:02,835 INFO o.a.j.JMeter: Loading user properties from: /opt/apache-jmeter-5.5/bin/user.properties
+2022-09-10 01:09:02,835 INFO o.a.j.JMeter: Loading system properties from: /opt/apache-jmeter-5.5/bin/system.properties
+2022-09-10 01:09:02,843 INFO o.a.j.JMeter: Copyright (c) 1998-2022 The Apache Software Foundation
+2022-09-10 01:09:02,843 INFO o.a.j.JMeter: Version 5.5
+2022-09-10 01:09:02,843 INFO o.a.j.JMeter: java.version=11.0.16.1
+2022-09-10 01:09:02,843 INFO o.a.j.JMeter: java.vm.name=Java HotSpot(TM) 64-Bit Server VM
+2022-09-10 01:09:02,843 INFO o.a.j.JMeter: os.name=Linux
+2022-09-10 01:09:02,843 INFO o.a.j.JMeter: os.arch=amd64
+2022-09-10 01:09:02,843 INFO o.a.j.JMeter: os.version=5.15.0-46-generic
+2022-09-10 01:09:02,843 INFO o.a.j.JMeter: file.encoding=UTF-8
+2022-09-10 01:09:02,843 INFO o.a.j.JMeter: java.awt.headless=true
+2022-09-10 01:09:02,844 INFO o.a.j.JMeter: Max memory     =1073741824
+2022-09-10 01:09:02,844 INFO o.a.j.JMeter: Available Processors =8
+2022-09-10 01:09:02,852 INFO o.a.j.JMeter: Default Locale=English (EN)
+2022-09-10 01:09:02,852 INFO o.a.j.JMeter: JMeter  Locale=English (EN)
+2022-09-10 01:09:02,852 INFO o.a.j.JMeter: JMeterHome=/opt/apache-jmeter-5.5
+2022-09-10 01:09:02,852 INFO o.a.j.JMeter: user.dir  =/home/rafaelnalin/workspace/faculdade/dsd/trabalho/automacao
+2022-09-10 01:09:02,853 INFO o.a.j.JMeter: PWD       =/home/rafaelnalin/workspace/faculdade/dsd/trabalho/automacao
+2022-09-10 01:09:02,853 INFO o.a.j.JMeter: IP: 127.0.1.1 Name: lnb024563cps FullName: lnb024563cps.ciandt.global
+2022-09-10 01:09:02,896 INFO o.a.j.s.FileServer: Default base='/home/rafaelnalin/workspace/faculdade/dsd/trabalho/automacao'
+2022-09-10 01:09:02,898 INFO o.a.j.s.FileServer: Set new base='/home/rafaelnalin/workspace/faculdade/dsd/trabalho/automacao'
+2022-09-10 01:09:03,174 INFO o.a.j.s.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2
+2022-09-10 01:09:03,199 INFO o.a.j.s.SaveService: Using SaveService properties version 5.0
+2022-09-10 01:09:03,203 INFO o.a.j.s.SaveService: Using SaveService properties file encoding UTF-8
+2022-09-10 01:09:03,207 INFO o.a.j.s.SaveService: Loading file: teste.jmx
+2022-09-10 01:09:03,288 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2022-09-10 01:09:03,288 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xhtml+xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2022-09-10 01:09:03,288 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2022-09-10 01:09:03,288 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2022-09-10 01:09:03,288 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser
+2022-09-10 01:09:03,288 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/css is org.apache.jmeter.protocol.http.parser.CssParser
+2022-09-10 01:09:03,320 INFO o.a.j.JMeter: Creating summariser <summary>
+2022-09-10 01:09:03,333 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2022-09-10 01:09:03,334 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2022-09-10 01:09:03,334 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2022-09-10 01:09:03,341 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must contain the string: '.functions.'
+2022-09-10 01:09:03,341 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must not contain the string: '.gui.'
+2022-09-10 01:09:03,923 INFO o.a.j.JMeter: Running test (1662782943923)
+2022-09-10 01:09:03,970 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Thread Group
+2022-09-10 01:09:03,971 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group Thread Group.
+2022-09-10 01:09:03,971 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2022-09-10 01:09:03,971 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=1 ramp-up=1 delayedStart=true
+2022-09-10 01:09:03,972 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2022-09-10 01:09:03,972 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2022-09-10 01:09:03,984 INFO o.a.j.t.JMeterThread: Thread started: Thread Group 1-1
+2022-09-10 01:09:04,871 INFO o.a.j.m.J.JSR223 PreProcessor: id: ffad39db-3fe7-4e46-bb44-308c94bff368
+2022-09-10 01:09:04,925 INFO o.a.j.p.h.s.HTTPHCAbstractImpl: Local host = lnb024563cps
+2022-09-10 01:09:04,935 INFO o.a.j.p.h.s.HTTPHC4Impl: HTTP request retry count = 0
+2022-09-10 01:09:04,937 INFO o.a.j.s.SampleResult: Note: Sample TimeStamps are START times
+2022-09-10 01:09:04,938 INFO o.a.j.s.SampleResult: sampleresult.default.encoding is set to ISO-8859-1
+2022-09-10 01:09:04,938 INFO o.a.j.s.SampleResult: sampleresult.useNanoTime=true
+2022-09-10 01:09:04,938 INFO o.a.j.s.SampleResult: sampleresult.nanoThreadSleep=5000
+2022-09-10 01:09:05,200 INFO o.a.j.e.J.JSR223 PostProcessor: response: {"data":{"message":"ID validado com sucesso!","id":"ffad39db-3fe7-4e46-bb44-308c94bff368","protocol":"a28c8e370b34a8e3"},"service":"api-gateway-trabalho-sd-6bbc65864-zhn7v"}
+2022-09-10 01:09:05,202 INFO o.a.j.r.Summariser: summary +      1 in 00:00:01 =    0.8/s Avg:   117 Min:   117 Max:   117 Err:     0 (0.00%) Active: 1 Started: 1 Finished: 0
+2022-09-10 01:09:05,203 INFO o.a.j.m.J.JSR223 PreProcessor: id: 9f2bf413-0aba-4116-8b7d-b3cff9485fc3
+2022-09-10 01:09:05,266 INFO o.a.j.e.J.JSR223 PostProcessor: response: {"data":{"message":"ID validado com sucesso!","id":"9f2bf413-0aba-4116-8b7d-b3cff9485fc3","protocol":"1db805cbe2c1a1f7"},"service":"api-gateway-trabalho-sd-6bbc65864-stmg9"}
+2022-09-10 01:09:05,267 INFO o.a.j.m.J.JSR223 PreProcessor: id: ca7d9002-ecc8-4964-b35e-b3f1955bd7d5
+2022-09-10 01:09:05,301 INFO o.a.j.e.J.JSR223 PostProcessor: response: {"data":{"message":"ID validado com sucesso!","id":"ca7d9002-ecc8-4964-b35e-b3f1955bd7d5","protocol":"fbfd0539134684e1"},"service":"api-gateway-trabalho-sd-6bbc65864-zhn7v"}
+2022-09-10 01:09:05,302 INFO o.a.j.m.J.JSR223 PreProcessor: id: a20b773c-6f0f-47c9-bea3-4cb37249afc3
+2022-09-10 01:09:05,335 INFO o.a.j.e.J.JSR223 PostProcessor: response: {"data":{"message":"ID validado com sucesso!","id":"a20b773c-6f0f-47c9-bea3-4cb37249afc3","protocol":"477742e1e0a78019"},"service":"api-gateway-trabalho-sd-6bbc65864-stmg9"}
+2022-09-10 01:09:05,336 INFO o.a.j.m.J.JSR223 PreProcessor: id: 7a454e15-776d-4b25-9d17-7ea612b2d878
+2022-09-10 01:09:05,369 INFO o.a.j.e.J.JSR223 PostProcessor: response: {"data":{"message":"ID validado com sucesso!","id":"7a454e15-776d-4b25-9d17-7ea612b2d878","protocol":"c9f220b790a0a7de"},"service":"api-gateway-trabalho-sd-6bbc65864-zhn7v"}
+2022-09-10 01:09:05,370 INFO o.a.j.m.J.JSR223 PreProcessor: id: 5b7e85df-4b0a-4678-8bc4-703ca21af910
+2022-09-10 01:09:05,404 INFO o.a.j.e.J.JSR223 PostProcessor: response: {"data":{"message":"ID validado com sucesso!","id":"5b7e85df-4b0a-4678-8bc4-703ca21af910","protocol":"5f4373835d2e89c8"},"service":"api-gateway-trabalho-sd-6bbc65864-stmg9"}
+2022-09-10 01:09:05,405 INFO o.a.j.m.J.JSR223 PreProcessor: id: 81ef31c3-e00b-4690-b453-46108ea1cb3d
+2022-09-10 01:09:05,455 INFO o.a.j.e.J.JSR223 PostProcessor: response: {"data":{"message":"ID validado com sucesso!","id":"81ef31c3-e00b-4690-b453-46108ea1cb3d","protocol":"fb067910659bbdd3"},"service":"api-gateway-trabalho-sd-6bbc65864-zhn7v"}
+2022-09-10 01:09:05,458 INFO o.a.j.m.J.JSR223 PreProcessor: id: 59fc4197-41c1-4670-9627-8db7bec509e1
+2022-09-10 01:09:05,518 INFO o.a.j.e.J.JSR223 PostProcessor: response: {"data":{"message":"ID validado com sucesso!","id":"59fc4197-41c1-4670-9627-8db7bec509e1","protocol":"f17b1b93029abe8c"},"service":"api-gateway-trabalho-sd-6bbc65864-stmg9"}
+2022-09-10 01:09:05,520 INFO o.a.j.m.J.JSR223 PreProcessor: id: d7ec9fe3-c071-481c-81ee-f37f957e103e
+2022-09-10 01:09:05,576 INFO o.a.j.e.J.JSR223 PostProcessor: response: {"data":{"message":"ID validado com sucesso!","id":"d7ec9fe3-c071-481c-81ee-f37f957e103e","protocol":"f78aa9296544843e"},"service":"api-gateway-trabalho-sd-6bbc65864-zhn7v"}
+2022-09-10 01:09:05,578 INFO o.a.j.m.J.JSR223 PreProcessor: id: c10ba1da-df03-40c4-b245-7031e1e82d70
+2022-09-10 01:09:05,626 INFO o.a.j.e.J.JSR223 PostProcessor: response: {"data":{"message":"ID validado com sucesso!","id":"c10ba1da-df03-40c4-b245-7031e1e82d70","protocol":"a6b79c4967c48222"},"service":"api-gateway-trabalho-sd-6bbc65864-stmg9"}
+2022-09-10 01:09:05,628 INFO o.a.j.m.J.JSR223 PreProcessor: id: 9e098893-ea77-42ba-9f94-2ac547c4e489
+2022-09-10 01:09:05,670 INFO o.a.j.e.J.JSR223 PostProcessor: response: {"data":{"message":"ID validado com sucesso!","id":"9e098893-ea77-42ba-9f94-2ac547c4e489","protocol":"220fdeca9a089af2"},"service":"api-gateway-trabalho-sd-6bbc65864-zhn7v"}
+2022-09-10 01:09:05,672 INFO o.a.j.m.J.JSR223 PreProcessor: id: b04158cc-5889-4eb2-ad7b-1a1d6f3a8736
+2022-09-10 01:09:05,720 INFO o.a.j.e.J.JSR223 PostProcessor: response: {"data":{"message":"ID validado com sucesso!","id":"b04158cc-5889-4eb2-ad7b-1a1d6f3a8736","protocol":"e10dbd386fb284de"},"service":"api-gateway-trabalho-sd-6bbc65864-stmg9"}
+2022-09-10 01:09:05,721 INFO o.a.j.m.J.JSR223 PreProcessor: id: 6775d127-f973-47ba-8a9b-9625d0400bf1
+2022-09-10 01:09:05,761 INFO o.a.j.e.J.JSR223 PostProcessor: response: {"data":{"message":"ID validado com sucesso!","id":"6775d127-f973-47ba-8a9b-9625d0400bf1","protocol":"ad6f4ecf180cb294"},"service":"api-gateway-trabalho-sd-6bbc65864-zhn7v"}
+2022-09-10 01:09:05,763 INFO o.a.j.m.J.JSR223 PreProcessor: id: 138f6b2e-7091-4505-973e-1be4edaced51
+2022-09-10 01:09:05,805 INFO o.a.j.e.J.JSR223 PostProcessor: response: {"data":{"message":"ID validado com sucesso!","id":"138f6b2e-7091-4505-973e-1be4edaced51","protocol":"73383fd3154ca98c"},"service":"api-gateway-trabalho-sd-6bbc65864-stmg9"}
+2022-09-10 01:09:05,806 INFO o.a.j.m.J.JSR223 PreProcessor: id: 776e5081-efc5-4538-8675-c695e26ccd83
+2022-09-10 01:09:05,845 INFO o.a.j.e.J.JSR223 PostProcessor: response: {"data":{"message":"ID validado com sucesso!","id":"776e5081-efc5-4538-8675-c695e26ccd83","protocol":"ff43334bc40a87e2"},"service":"api-gateway-trabalho-sd-6bbc65864-zhn7v"}
+2022-09-10 01:09:05,847 INFO o.a.j.m.J.JSR223 PreProcessor: id: fae0def6-a024-4c37-a445-4e7fe2a731bd
+2022-09-10 01:09:05,894 INFO o.a.j.e.J.JSR223 PostProcessor: response: {"data":{"message":"ID validado com sucesso!","id":"fae0def6-a024-4c37-a445-4e7fe2a731bd","protocol":"b076efb791de8cdd"},"service":"api-gateway-trabalho-sd-6bbc65864-stmg9"}
+2022-09-10 01:09:05,896 INFO o.a.j.m.J.JSR223 PreProcessor: id: d9c9abe7-96f4-4c11-b771-d466608dd199
+2022-09-10 01:09:05,951 INFO o.a.j.e.J.JSR223 PostProcessor: response: {"data":{"message":"ID validado com sucesso!","id":"d9c9abe7-96f4-4c11-b771-d466608dd199","protocol":"4d6e6fda0c60b065"},"service":"api-gateway-trabalho-sd-6bbc65864-zhn7v"}
+2022-09-10 01:09:05,953 INFO o.a.j.m.J.JSR223 PreProcessor: id: 8e798d8c-4866-4807-82f4-b60d5d0344b4
+2022-09-10 01:09:06,001 INFO o.a.j.e.J.JSR223 PostProcessor: response: {"data":{"message":"ID validado com sucesso!","id":"8e798d8c-4866-4807-82f4-b60d5d0344b4","protocol":"8cf5f24710818d1f"},"service":"api-gateway-trabalho-sd-6bbc65864-stmg9"}
+2022-09-10 01:09:06,003 INFO o.a.j.m.J.JSR223 PreProcessor: id: 4a272600-4424-4987-9a46-2ad2f684e6c3
+2022-09-10 01:09:06,055 INFO o.a.j.e.J.JSR223 PostProcessor: response: {"data":{"message":"ID validado com sucesso!","id":"4a272600-4424-4987-9a46-2ad2f684e6c3","protocol":"208606cf34128297"},"service":"api-gateway-trabalho-sd-6bbc65864-zhn7v"}
+2022-09-10 01:09:06,057 INFO o.a.j.m.J.JSR223 PreProcessor: id: 23d8c247-76f0-4e10-889c-38c6eb7629ef
+2022-09-10 01:09:06,113 INFO o.a.j.e.J.JSR223 PostProcessor: response: {"data":{"message":"ID validado com sucesso!","id":"23d8c247-76f0-4e10-889c-38c6eb7629ef","protocol":"9cbc31c432fe97fe"},"service":"api-gateway-trabalho-sd-6bbc65864-stmg9"}
+2022-09-10 01:09:06,115 INFO o.a.j.m.J.JSR223 PreProcessor: id: 96cf645a-1294-440e-b2bd-e461150d616e
+2022-09-10 01:09:06,164 INFO o.a.j.e.J.JSR223 PostProcessor: response: {"data":{"message":"ID validado com sucesso!","id":"96cf645a-1294-440e-b2bd-e461150d616e","protocol":"af6c597ecb708f33"},"service":"api-gateway-trabalho-sd-6bbc65864-zhn7v"}
+2022-09-10 01:09:06,167 INFO o.a.j.m.J.JSR223 PreProcessor: id: c58eb789-5f14-49f5-9446-ecbe3bd4dde1
+2022-09-10 01:09:06,209 INFO o.a.j.e.J.JSR223 PostProcessor: response: {"data":{"message":"ID validado com sucesso!","id":"c58eb789-5f14-49f5-9446-ecbe3bd4dde1","protocol":"4810f059df1d9e38"},"service":"api-gateway-trabalho-sd-6bbc65864-stmg9"}
+2022-09-10 01:09:06,210 INFO o.a.j.m.J.JSR223 PreProcessor: id: bf3ce55f-b09c-404d-a0c8-de75404f2fd9
+2022-09-10 01:09:06,246 INFO o.a.j.e.J.JSR223 PostProcessor: response: {"data":{"message":"ID validado com sucesso!","id":"bf3ce55f-b09c-404d-a0c8-de75404f2fd9","protocol":"ea2afe6062b580e5"},"service":"api-gateway-trabalho-sd-6bbc65864-zhn7v"}
+2022-09-10 01:09:06,248 INFO o.a.j.m.J.JSR223 PreProcessor: id: f1667c67-63f9-42d5-b3ce-e7aa79d333a2
+2022-09-10 01:09:06,295 INFO o.a.j.e.J.JSR223 PostProcessor: response: {"data":{"message":"ID validado com sucesso!","id":"f1667c67-63f9-42d5-b3ce-e7aa79d333a2","protocol":"3463363520af8810"},"service":"api-gateway-trabalho-sd-6bbc65864-stmg9"}
+2022-09-10 01:09:06,297 INFO o.a.j.m.J.JSR223 PreProcessor: id: d2326107-8e88-4fd7-a284-65cece3e9a68
+2022-09-10 01:09:06,345 INFO o.a.j.e.J.JSR223 PostProcessor: response: {"data":{"message":"ID validado com sucesso!","id":"d2326107-8e88-4fd7-a284-65cece3e9a68","protocol":"bcc98a5e0fe3a3ad"},"service":"api-gateway-trabalho-sd-6bbc65864-zhn7v"}
+2022-09-10 01:09:06,347 INFO o.a.j.m.J.JSR223 PreProcessor: id: 9a51a383-bae4-456e-8db6-1967504730f5
+2022-09-10 01:09:06,395 INFO o.a.j.e.J.JSR223 PostProcessor: response: {"data":{"message":"ID validado com sucesso!","id":"9a51a383-bae4-456e-8db6-1967504730f5","protocol":"96925af79106826e"},"service":"api-gateway-trabalho-sd-6bbc65864-stmg9"}
+2022-09-10 01:09:06,397 INFO o.a.j.m.J.JSR223 PreProcessor: id: 68d3580a-71c0-4165-bb55-ef620a8988d4
+2022-09-10 01:09:06,447 INFO o.a.j.e.J.JSR223 PostProcessor: response: {"data":{"message":"ID validado com sucesso!","id":"68d3580a-71c0-4165-bb55-ef620a8988d4","protocol":"aecb4a5414b08960"},"service":"api-gateway-trabalho-sd-6bbc65864-zhn7v"}
+2022-09-10 01:09:06,448 INFO o.a.j.m.J.JSR223 PreProcessor: id: 30cfe8a7-4dfa-4acb-abe6-a5b1480ba4fa
+2022-09-10 01:09:06,494 INFO o.a.j.e.J.JSR223 PostProcessor: response: {"data":{"message":"ID validado com sucesso!","id":"30cfe8a7-4dfa-4acb-abe6-a5b1480ba4fa","protocol":"0c92c5f3fd5b8fa1"},"service":"api-gateway-trabalho-sd-6bbc65864-stmg9"}
+2022-09-10 01:09:06,495 INFO o.a.j.m.J.JSR223 PreProcessor: id: 65d17970-dfde-4de2-93b7-40aeeb2994a6
+2022-09-10 01:09:06,542 INFO o.a.j.e.J.JSR223 PostProcessor: response: {"data":{"message":"ID validado com sucesso!","id":"65d17970-dfde-4de2-93b7-40aeeb2994a6","protocol":"65cc0b961c7799a7"},"service":"api-gateway-trabalho-sd-6bbc65864-zhn7v"}
+2022-09-10 01:09:06,543 INFO o.a.j.m.J.JSR223 PreProcessor: id: 5b919b81-1c47-4335-a390-e19a07d09650
+2022-09-10 01:09:06,589 INFO o.a.j.e.J.JSR223 PostProcessor: response: {"data":{"message":"ID validado com sucesso!","id":"5b919b81-1c47-4335-a390-e19a07d09650","protocol":"0d5fa6fc8d0fa3be"},"service":"api-gateway-trabalho-sd-6bbc65864-stmg9"}
+2022-09-10 01:09:06,591 INFO o.a.j.m.J.JSR223 PreProcessor: id: 247a28c2-ed0a-4767-bfda-4b3a309b5507
+2022-09-10 01:09:06,624 INFO o.a.j.e.J.JSR223 PostProcessor: response: {"data":{"message":"ID validado com sucesso!","id":"247a28c2-ed0a-4767-bfda-4b3a309b5507","protocol":"1d47d607ac749054"},"service":"api-gateway-trabalho-sd-6bbc65864-zhn7v"}
+2022-09-10 01:09:06,625 INFO o.a.j.m.J.JSR223 PreProcessor: id: 71759df4-183c-45a7-a039-573a09fb7952
+2022-09-10 01:09:06,654 INFO o.a.j.e.J.JSR223 PostProcessor: response: {"data":{"message":"ID validado com sucesso!","id":"71759df4-183c-45a7-a039-573a09fb7952","protocol":"d935654a7d13a0ca"},"service":"api-gateway-trabalho-sd-6bbc65864-stmg9"}
+2022-09-10 01:09:06,655 INFO o.a.j.m.J.JSR223 PreProcessor: id: 003a7e1a-6688-4774-a20b-a24a07558bc6
+2022-09-10 01:09:06,697 INFO o.a.j.e.J.JSR223 PostProcessor: response: {"data":{"message":"ID validado com sucesso!","id":"003a7e1a-6688-4774-a20b-a24a07558bc6","protocol":"94fc651d06c2b77c"},"service":"api-gateway-trabalho-sd-6bbc65864-zhn7v"}
+2022-09-10 01:09:06,699 INFO o.a.j.m.J.JSR223 PreProcessor: id: f45f255a-c52c-4292-a8c1-441aad763cd9
+2022-09-10 01:09:06,747 INFO o.a.j.e.J.JSR223 PostProcessor: response: {"data":{"message":"ID validado com sucesso!","id":"f45f255a-c52c-4292-a8c1-441aad763cd9","protocol":"db45fa9ca758adce"},"service":"api-gateway-trabalho-sd-6bbc65864-stmg9"}
+2022-09-10 01:09:06,749 INFO o.a.j.m.J.JSR223 PreProcessor: id: 64183368-6993-4f2b-a1dc-41c8be9dfea7
+2022-09-10 01:09:06,800 INFO o.a.j.e.J.JSR223 PostProcessor: response: {"data":{"message":"ID validado com sucesso!","id":"64183368-6993-4f2b-a1dc-41c8be9dfea7","protocol":"37dc381da91d9e35"},"service":"api-gateway-trabalho-sd-6bbc65864-zhn7v"}
+2022-09-10 01:09:06,801 INFO o.a.j.m.J.JSR223 PreProcessor: id: e3a964fe-df5d-4237-ba22-e230508281c1
+2022-09-10 01:09:06,842 INFO o.a.j.e.J.JSR223 PostProcessor: response: {"data":{"message":"ID validado com sucesso!","id":"e3a964fe-df5d-4237-ba22-e230508281c1","protocol":"d2dd9a4642ce8eac"},"service":"api-gateway-trabalho-sd-6bbc65864-stmg9"}
+2022-09-10 01:09:06,843 INFO o.a.j.m.J.JSR223 PreProcessor: id: ed7fa254-2a70-4bf1-930e-196692eb2fc0
+2022-09-10 01:09:06,882 INFO o.a.j.e.J.JSR223 PostProcessor: response: {"data":{"message":"ID validado com sucesso!","id":"ed7fa254-2a70-4bf1-930e-196692eb2fc0","protocol":"daf7fa71e8329f50"},"service":"api-gateway-trabalho-sd-6bbc65864-zhn7v"}
+2022-09-10 01:09:06,884 INFO o.a.j.m.J.JSR223 PreProcessor: id: 442ea483-8a77-45fb-a188-30f6698801c8
+2022-09-10 01:09:06,936 INFO o.a.j.e.J.JSR223 PostProcessor: response: {"data":{"message":"ID validado com sucesso!","id":"442ea483-8a77-45fb-a188-30f6698801c8","protocol":"417579833430a9a5"},"service":"api-gateway-trabalho-sd-6bbc65864-stmg9"}
+2022-09-10 01:09:06,938 INFO o.a.j.m.J.JSR223 PreProcessor: id: 3a17db5b-73f1-4efc-a00a-4edb0877359c
+2022-09-10 01:09:06,994 INFO o.a.j.e.J.JSR223 PostProcessor: response: {"data":{"message":"ID validado com sucesso!","id":"3a17db5b-73f1-4efc-a00a-4edb0877359c","protocol":"8c7a31d4de83b556"},"service":"api-gateway-trabalho-sd-6bbc65864-zhn7v"}
+2022-09-10 01:09:06,996 INFO o.a.j.m.J.JSR223 PreProcessor: id: a63cf951-4ef9-4fd9-baa0-d48278ad1cda
+2022-09-10 01:09:07,037 INFO o.a.j.e.J.JSR223 PostProcessor: response: {"data":{"message":"ID validado com sucesso!","id":"a63cf951-4ef9-4fd9-baa0-d48278ad1cda","protocol":"03ae1ca87608ae23"},"service":"api-gateway-trabalho-sd-6bbc65864-stmg9"}
+2022-09-10 01:09:07,038 INFO o.a.j.m.J.JSR223 PreProcessor: id: 4b928119-e7c1-42d6-8d2b-53e36066e109
+2022-09-10 01:09:07,080 INFO o.a.j.e.J.JSR223 PostProcessor: response: {"data":{"message":"ID validado com sucesso!","id":"4b928119-e7c1-42d6-8d2b-53e36066e109","protocol":"4bfdf1e7e9219814"},"service":"api-gateway-trabalho-sd-6bbc65864-zhn7v"}
+2022-09-10 01:09:07,081 INFO o.a.j.m.J.JSR223 PreProcessor: id: f1c6e6a0-0fda-4ce3-924f-fafa0a930342
+2022-09-10 01:09:07,135 INFO o.a.j.e.J.JSR223 PostProcessor: response: {"data":{"message":"ID validado com sucesso!","id":"f1c6e6a0-0fda-4ce3-924f-fafa0a930342","protocol":"7622ee400512931b"},"service":"api-gateway-trabalho-sd-6bbc65864-stmg9"}
+2022-09-10 01:09:07,137 INFO o.a.j.m.J.JSR223 PreProcessor: id: 8a149d52-3b35-4183-a343-a50d4802cd13
+2022-09-10 01:09:07,187 INFO o.a.j.e.J.JSR223 PostProcessor: response: {"data":{"message":"ID validado com sucesso!","id":"8a149d52-3b35-4183-a343-a50d4802cd13","protocol":"4e0846161a6bb78a"},"service":"api-gateway-trabalho-sd-6bbc65864-zhn7v"}
+2022-09-10 01:09:07,189 INFO o.a.j.m.J.JSR223 PreProcessor: id: 2e33b9c8-57d2-4d4f-99f1-67a8d15dbe05
+2022-09-10 01:09:07,252 INFO o.a.j.e.J.JSR223 PostProcessor: response: {"data":{"message":"ID validado com sucesso!","id":"2e33b9c8-57d2-4d4f-99f1-67a8d15dbe05","protocol":"00e0f4108a1db40c"},"service":"api-gateway-trabalho-sd-6bbc65864-stmg9"}
+2022-09-10 01:09:07,253 INFO o.a.j.m.J.JSR223 PreProcessor: id: c6d4b0cb-5118-47ad-82ea-aa9406cd66f4
+2022-09-10 01:09:07,303 INFO o.a.j.e.J.JSR223 PostProcessor: response: {"data":{"message":"ID validado com sucesso!","id":"c6d4b0cb-5118-47ad-82ea-aa9406cd66f4","protocol":"78f115c9e9e1bd6b"},"service":"api-gateway-trabalho-sd-6bbc65864-zhn7v"}
+2022-09-10 01:09:07,306 INFO o.a.j.m.J.JSR223 PreProcessor: id: c031872c-4b4e-4588-8b5e-e0d23ae78474
+2022-09-10 01:09:07,348 INFO o.a.j.e.J.JSR223 PostProcessor: response: {"data":{"message":"ID validado com sucesso!","id":"c031872c-4b4e-4588-8b5e-e0d23ae78474","protocol":"643c2adc976ebe0b"},"service":"api-gateway-trabalho-sd-6bbc65864-stmg9"}
+2022-09-10 01:09:07,349 INFO o.a.j.m.J.JSR223 PreProcessor: id: df034ce8-78b6-4422-9773-90941324f3a2
+2022-09-10 01:09:07,393 INFO o.a.j.e.J.JSR223 PostProcessor: response: {"data":{"message":"ID validado com sucesso!","id":"df034ce8-78b6-4422-9773-90941324f3a2","protocol":"b653573572aa9225"},"service":"api-gateway-trabalho-sd-6bbc65864-zhn7v"}
+2022-09-10 01:09:07,395 INFO o.a.j.m.J.JSR223 PreProcessor: id: f7335114-e8a5-467b-b1f9-56850ec96ae2
+2022-09-10 01:09:07,446 INFO o.a.j.e.J.JSR223 PostProcessor: response: {"data":{"message":"ID validado com sucesso!","id":"f7335114-e8a5-467b-b1f9-56850ec96ae2","protocol":"6e3f62f3d6c39496"},"service":"api-gateway-trabalho-sd-6bbc65864-stmg9"}
+2022-09-10 01:09:07,448 INFO o.a.j.m.J.JSR223 PreProcessor: id: 52941597-42aa-42db-bd0c-c05510206f84
+2022-09-10 01:09:07,499 INFO o.a.j.e.J.JSR223 PostProcessor: response: {"data":{"message":"ID validado com sucesso!","id":"52941597-42aa-42db-bd0c-c05510206f84","protocol":"4a4e7620c475b548"},"service":"api-gateway-trabalho-sd-6bbc65864-zhn7v"}
+2022-09-10 01:09:07,502 INFO o.a.j.m.J.JSR223 PreProcessor: id: 4f0812e1-f23a-47da-8bf5-504efd5e8019
+2022-09-10 01:09:07,550 INFO o.a.j.e.J.JSR223 PostProcessor: response: {"data":{"message":"ID validado com sucesso!","id":"4f0812e1-f23a-47da-8bf5-504efd5e8019","protocol":"9b7b19207093b18f"},"service":"api-gateway-trabalho-sd-6bbc65864-stmg9"}
+2022-09-10 01:09:07,552 INFO o.a.j.m.J.JSR223 PreProcessor: id: 027e1d3f-4d49-465f-b013-9529614ee958
+2022-09-10 01:09:07,593 INFO o.a.j.e.J.JSR223 PostProcessor: response: {"data":{"message":"ID validado com sucesso!","id":"027e1d3f-4d49-465f-b013-9529614ee958","protocol":"f9a00eb9ce749997"},"service":"api-gateway-trabalho-sd-6bbc65864-zhn7v"}
+2022-09-10 01:09:07,593 INFO o.a.j.m.J.JSR223 PreProcessor: id: 4f1bec84-8813-481d-b55b-2d6294ac5f94
+2022-09-10 01:09:07,636 INFO o.a.j.e.J.JSR223 PostProcessor: response: {"data":{"message":"ID validado com sucesso!","id":"4f1bec84-8813-481d-b55b-2d6294ac5f94","protocol":"119f3c12f163b773"},"service":"api-gateway-trabalho-sd-6bbc65864-stmg9"}
+2022-09-10 01:09:07,638 INFO o.a.j.m.J.JSR223 PreProcessor: id: 148583e5-0b65-4ef3-9050-e5196f78fe5d
+2022-09-10 01:09:07,684 INFO o.a.j.e.J.JSR223 PostProcessor: response: {"data":{"message":"ID validado com sucesso!","id":"148583e5-0b65-4ef3-9050-e5196f78fe5d","protocol":"fadb5a20296e9312"},"service":"api-gateway-trabalho-sd-6bbc65864-zhn7v"}
+2022-09-10 01:09:07,685 INFO o.a.j.m.J.JSR223 PreProcessor: id: 79c31353-939f-4397-9dcb-7f217763d19c
+2022-09-10 01:09:07,718 INFO o.a.j.e.J.JSR223 PostProcessor: response: {"data":{"message":"ID validado com sucesso!","id":"79c31353-939f-4397-9dcb-7f217763d19c","protocol":"9044ad6de148ad85"},"service":"api-gateway-trabalho-sd-6bbc65864-stmg9"}
+2022-09-10 01:09:07,719 INFO o.a.j.m.J.JSR223 PreProcessor: id: 666cac85-4df6-4e9e-a380-50894cec6836
+2022-09-10 01:09:07,759 INFO o.a.j.e.J.JSR223 PostProcessor: response: {"data":{"message":"ID validado com sucesso!","id":"666cac85-4df6-4e9e-a380-50894cec6836","protocol":"247efbd4a47390d3"},"service":"api-gateway-trabalho-sd-6bbc65864-zhn7v"}
+2022-09-10 01:09:07,761 INFO o.a.j.m.J.JSR223 PreProcessor: id: acd44ae5-557a-4186-b18f-c11660899a99
+2022-09-10 01:09:07,808 INFO o.a.j.e.J.JSR223 PostProcessor: response: {"data":{"message":"ID validado com sucesso!","id":"acd44ae5-557a-4186-b18f-c11660899a99","protocol":"4537f00718fd9493"},"service":"api-gateway-trabalho-sd-6bbc65864-stmg9"}
+2022-09-10 01:09:07,811 INFO o.a.j.m.J.JSR223 PreProcessor: id: 0a865e7a-0d78-48d4-b60e-a59e589bdaa7
+2022-09-10 01:09:07,852 INFO o.a.j.e.J.JSR223 PostProcessor: response: {"data":{"message":"ID validado com sucesso!","id":"0a865e7a-0d78-48d4-b60e-a59e589bdaa7","protocol":"6683ed5c4c6ca4b1"},"service":"api-gateway-trabalho-sd-6bbc65864-zhn7v"}
+2022-09-10 01:09:07,852 INFO o.a.j.m.J.JSR223 PreProcessor: id: 74b3c6c7-a76b-4b8a-9cd1-4b0e3af25488
+2022-09-10 01:09:07,895 INFO o.a.j.e.J.JSR223 PostProcessor: response: {"data":{"message":"ID validado com sucesso!","id":"74b3c6c7-a76b-4b8a-9cd1-4b0e3af25488","protocol":"cd4f23800fada357"},"service":"api-gateway-trabalho-sd-6bbc65864-stmg9"}
+2022-09-10 01:09:07,896 INFO o.a.j.m.J.JSR223 PreProcessor: id: b4f274b5-194f-45c2-823e-4c2200397d7b
+2022-09-10 01:09:07,944 INFO o.a.j.e.J.JSR223 PostProcessor: response: {"data":{"message":"ID validado com sucesso!","id":"b4f274b5-194f-45c2-823e-4c2200397d7b","protocol":"05defbae5c89832a"},"service":"api-gateway-trabalho-sd-6bbc65864-zhn7v"}
+2022-09-10 01:09:07,946 INFO o.a.j.m.J.JSR223 PreProcessor: id: 2f1be2f5-8737-4367-95e0-a1ff3c16b6a1
+2022-09-10 01:09:07,988 INFO o.a.j.e.J.JSR223 PostProcessor: response: {"data":{"message":"ID validado com sucesso!","id":"2f1be2f5-8737-4367-95e0-a1ff3c16b6a1","protocol":"84c3bf0487c3be39"},"service":"api-gateway-trabalho-sd-6bbc65864-stmg9"}
+2022-09-10 01:09:07,990 INFO o.a.j.m.J.JSR223 PreProcessor: id: c24062fa-791b-4df6-a352-805ade8065c7
+2022-09-10 01:09:08,024 INFO o.a.j.e.J.JSR223 PostProcessor: response: {"data":{"message":"ID validado com sucesso!","id":"c24062fa-791b-4df6-a352-805ade8065c7","protocol":"737ecc82a5f58ed7"},"service":"api-gateway-trabalho-sd-6bbc65864-zhn7v"}
+2022-09-10 01:09:08,025 INFO o.a.j.m.J.JSR223 PreProcessor: id: 6e83e783-9bbb-499b-bfea-b40b34cb6b57
+2022-09-10 01:09:08,061 INFO o.a.j.e.J.JSR223 PostProcessor: response: {"data":{"message":"ID validado com sucesso!","id":"6e83e783-9bbb-499b-bfea-b40b34cb6b57","protocol":"f61f112573949a2c"},"service":"api-gateway-trabalho-sd-6bbc65864-stmg9"}
+2022-09-10 01:09:08,061 INFO o.a.j.m.J.JSR223 PreProcessor: id: 5acbce9e-2c7d-4ed7-814b-7fb2f350ec2e
+2022-09-10 01:09:08,101 INFO o.a.j.e.J.JSR223 PostProcessor: response: {"data":{"message":"ID validado com sucesso!","id":"5acbce9e-2c7d-4ed7-814b-7fb2f350ec2e","protocol":"4c8a1a73e31abe94"},"service":"api-gateway-trabalho-sd-6bbc65864-zhn7v"}
+2022-09-10 01:09:08,102 INFO o.a.j.m.J.JSR223 PreProcessor: id: 0fda6d95-3881-415c-bc21-0f36dd9b27e2
+2022-09-10 01:09:08,145 INFO o.a.j.e.J.JSR223 PostProcessor: response: {"data":{"message":"ID validado com sucesso!","id":"0fda6d95-3881-415c-bc21-0f36dd9b27e2","protocol":"8abdcae11999868d"},"service":"api-gateway-trabalho-sd-6bbc65864-stmg9"}
+2022-09-10 01:09:08,146 INFO o.a.j.m.J.JSR223 PreProcessor: id: 56afd446-49d5-477a-87d0-10097cf47ec4
+2022-09-10 01:09:08,187 INFO o.a.j.e.J.JSR223 PostProcessor: response: {"data":{"message":"ID validado com sucesso!","id":"56afd446-49d5-477a-87d0-10097cf47ec4","protocol":"0ce4e5d8b0c3bdcb"},"service":"api-gateway-trabalho-sd-6bbc65864-zhn7v"}
+2022-09-10 01:09:08,188 INFO o.a.j.m.J.JSR223 PreProcessor: id: ea6556df-0928-4c16-a214-63b1d5a4ef3a
+2022-09-10 01:09:08,232 INFO o.a.j.e.J.JSR223 PostProcessor: response: {"data":{"message":"ID validado com sucesso!","id":"ea6556df-0928-4c16-a214-63b1d5a4ef3a","protocol":"5cecf487519aac7f"},"service":"api-gateway-trabalho-sd-6bbc65864-stmg9"}
+2022-09-10 01:09:08,234 INFO o.a.j.m.J.JSR223 PreProcessor: id: 3fc65bd7-2789-429c-880f-70f6923fcd62
+2022-09-10 01:09:08,281 INFO o.a.j.e.J.JSR223 PostProcessor: response: {"data":{"message":"ID validado com sucesso!","id":"3fc65bd7-2789-429c-880f-70f6923fcd62","protocol":"4b648b2ab2d59c9a"},"service":"api-gateway-trabalho-sd-6bbc65864-zhn7v"}
+2022-09-10 01:09:08,283 INFO o.a.j.m.J.JSR223 PreProcessor: id: 2b69529b-3886-4c87-8dce-0401de0baed2
+2022-09-10 01:09:08,331 INFO o.a.j.e.J.JSR223 PostProcessor: response: {"data":{"message":"ID validado com sucesso!","id":"2b69529b-3886-4c87-8dce-0401de0baed2","protocol":"a0f8b78a6958b88d"},"service":"api-gateway-trabalho-sd-6bbc65864-stmg9"}
+2022-09-10 01:09:08,332 INFO o.a.j.m.J.JSR223 PreProcessor: id: 73cc23c5-77a9-4541-b8b3-ed3d737e0bc2
+2022-09-10 01:09:08,375 INFO o.a.j.e.J.JSR223 PostProcessor: response: {"data":{"message":"ID validado com sucesso!","id":"73cc23c5-77a9-4541-b8b3-ed3d737e0bc2","protocol":"50ead99db2c28a4e"},"service":"api-gateway-trabalho-sd-6bbc65864-zhn7v"}
+2022-09-10 01:09:08,376 INFO o.a.j.m.J.JSR223 PreProcessor: id: bee5ddf3-fb7a-4cc8-a452-1f4d8ad190d6
+2022-09-10 01:09:08,418 INFO o.a.j.e.J.JSR223 PostProcessor: response: {"data":{"message":"ID validado com sucesso!","id":"bee5ddf3-fb7a-4cc8-a452-1f4d8ad190d6","protocol":"0149e47c4e8ea96b"},"service":"api-gateway-trabalho-sd-6bbc65864-stmg9"}
+2022-09-10 01:09:08,420 INFO o.a.j.m.J.JSR223 PreProcessor: id: af37b5cc-d54d-4bb4-b9ba-524d0a504ba7
+2022-09-10 01:09:08,467 INFO o.a.j.e.J.JSR223 PostProcessor: response: {"data":{"message":"ID validado com sucesso!","id":"af37b5cc-d54d-4bb4-b9ba-524d0a504ba7","protocol":"b4697fecc8f7a2d2"},"service":"api-gateway-trabalho-sd-6bbc65864-zhn7v"}
+2022-09-10 01:09:08,469 INFO o.a.j.m.J.JSR223 PreProcessor: id: 2e3d939d-d37b-48bd-a4b0-aaccb7e0a7cf
+2022-09-10 01:09:08,524 INFO o.a.j.e.J.JSR223 PostProcessor: response: {"data":{"message":"ID validado com sucesso!","id":"2e3d939d-d37b-48bd-a4b0-aaccb7e0a7cf","protocol":"89ae0ec9716293b9"},"service":"api-gateway-trabalho-sd-6bbc65864-stmg9"}
+2022-09-10 01:09:08,526 INFO o.a.j.m.J.JSR223 PreProcessor: id: 30573a7d-c842-438c-b7e6-735004349301
+2022-09-10 01:09:08,570 INFO o.a.j.e.J.JSR223 PostProcessor: response: {"data":{"message":"ID validado com sucesso!","id":"30573a7d-c842-438c-b7e6-735004349301","protocol":"f0016a704c5b9ccf"},"service":"api-gateway-trabalho-sd-6bbc65864-zhn7v"}
+2022-09-10 01:09:08,572 INFO o.a.j.m.J.JSR223 PreProcessor: id: 291354cd-7eb0-42be-b6af-2e567007ab21
+2022-09-10 01:09:08,609 INFO o.a.j.e.J.JSR223 PostProcessor: response: {"data":{"message":"ID validado com sucesso!","id":"291354cd-7eb0-42be-b6af-2e567007ab21","protocol":"133ea7f51d049b9e"},"service":"api-gateway-trabalho-sd-6bbc65864-stmg9"}
+2022-09-10 01:09:08,609 INFO o.a.j.m.J.JSR223 PreProcessor: id: e78c75e3-5173-4937-b199-4371764cf95d
+2022-09-10 01:09:08,650 INFO o.a.j.e.J.JSR223 PostProcessor: response: {"data":{"message":"ID validado com sucesso!","id":"e78c75e3-5173-4937-b199-4371764cf95d","protocol":"ed05ce8c4e318e74"},"service":"api-gateway-trabalho-sd-6bbc65864-zhn7v"}
+2022-09-10 01:09:08,651 INFO o.a.j.m.J.JSR223 PreProcessor: id: c4f453c5-5f5c-4750-840e-52cdf70f168b
+2022-09-10 01:09:08,689 INFO o.a.j.e.J.JSR223 PostProcessor: response: {"data":{"message":"ID validado com sucesso!","id":"c4f453c5-5f5c-4750-840e-52cdf70f168b","protocol":"39e55bc1a80fbedf"},"service":"api-gateway-trabalho-sd-6bbc65864-stmg9"}
+2022-09-10 01:09:08,690 INFO o.a.j.m.J.JSR223 PreProcessor: id: a70ab70b-9aa0-4f6f-8c14-5c056393fec2
+2022-09-10 01:09:08,724 INFO o.a.j.e.J.JSR223 PostProcessor: response: {"data":{"message":"ID validado com sucesso!","id":"a70ab70b-9aa0-4f6f-8c14-5c056393fec2","protocol":"0074188a39b1a87f"},"service":"api-gateway-trabalho-sd-6bbc65864-zhn7v"}
+2022-09-10 01:09:08,725 INFO o.a.j.m.J.JSR223 PreProcessor: id: eb01a36f-4d21-43f7-a7ee-c96984edbce2
+2022-09-10 01:09:08,760 INFO o.a.j.e.J.JSR223 PostProcessor: response: {"data":{"message":"ID validado com sucesso!","id":"eb01a36f-4d21-43f7-a7ee-c96984edbce2","protocol":"7884c98afea7b3c3"},"service":"api-gateway-trabalho-sd-6bbc65864-stmg9"}
+2022-09-10 01:09:08,761 INFO o.a.j.m.J.JSR223 PreProcessor: id: f4e09725-978b-4f04-a487-b2be6dc0be78
+2022-09-10 01:09:08,797 INFO o.a.j.e.J.JSR223 PostProcessor: response: {"data":{"message":"ID validado com sucesso!","id":"f4e09725-978b-4f04-a487-b2be6dc0be78","protocol":"c6390c7df699a189"},"service":"api-gateway-trabalho-sd-6bbc65864-zhn7v"}
+2022-09-10 01:09:08,798 INFO o.a.j.m.J.JSR223 PreProcessor: id: bc7bd2e3-d74f-4fb5-98c6-9dbbe0c51bda
+2022-09-10 01:09:08,835 INFO o.a.j.e.J.JSR223 PostProcessor: response: {"data":{"message":"ID validado com sucesso!","id":"bc7bd2e3-d74f-4fb5-98c6-9dbbe0c51bda","protocol":"3cac035cdff8bbfc"},"service":"api-gateway-trabalho-sd-6bbc65864-stmg9"}
+2022-09-10 01:09:08,836 INFO o.a.j.m.J.JSR223 PreProcessor: id: 01bd52fb-708a-453e-99b9-1ab9a54397a8
+2022-09-10 01:09:08,867 INFO o.a.j.e.J.JSR223 PostProcessor: response: {"data":{"message":"ID validado com sucesso!","id":"01bd52fb-708a-453e-99b9-1ab9a54397a8","protocol":"4fa922a93434879f"},"service":"api-gateway-trabalho-sd-6bbc65864-zhn7v"}
+2022-09-10 01:09:08,868 INFO o.a.j.m.J.JSR223 PreProcessor: id: 2208c50e-3f33-465d-b57e-d59daa96e4c7
+2022-09-10 01:09:08,909 INFO o.a.j.e.J.JSR223 PostProcessor: response: {"data":{"message":"ID validado com sucesso!","id":"2208c50e-3f33-465d-b57e-d59daa96e4c7","protocol":"6f9fc9aa556a9d9e"},"service":"api-gateway-trabalho-sd-6bbc65864-stmg9"}
+2022-09-10 01:09:08,911 INFO o.a.j.m.J.JSR223 PreProcessor: id: 79e00de0-6609-4d30-86de-677db82d7c16
+2022-09-10 01:09:08,961 INFO o.a.j.e.J.JSR223 PostProcessor: response: {"data":{"message":"ID validado com sucesso!","id":"79e00de0-6609-4d30-86de-677db82d7c16","protocol":"02c9dfd2b90daa71"},"service":"api-gateway-trabalho-sd-6bbc65864-zhn7v"}
+2022-09-10 01:09:08,962 INFO o.a.j.m.J.JSR223 PreProcessor: id: 49ed16a3-12a5-447c-9329-9865e2d4e45b
+2022-09-10 01:09:09,011 INFO o.a.j.e.J.JSR223 PostProcessor: response: {"data":{"message":"ID validado com sucesso!","id":"49ed16a3-12a5-447c-9329-9865e2d4e45b","protocol":"f336faafc295a019"},"service":"api-gateway-trabalho-sd-6bbc65864-stmg9"}
+2022-09-10 01:09:09,012 INFO o.a.j.m.J.JSR223 PreProcessor: id: ee7d8101-82bf-4bd0-acf6-4bec57a1a106
+2022-09-10 01:09:09,058 INFO o.a.j.e.J.JSR223 PostProcessor: response: {"data":{"message":"ID validado com sucesso!","id":"ee7d8101-82bf-4bd0-acf6-4bec57a1a106","protocol":"b4b5d8753e5183e4"},"service":"api-gateway-trabalho-sd-6bbc65864-zhn7v"}
+2022-09-10 01:09:09,059 INFO o.a.j.m.J.JSR223 PreProcessor: id: cf54e72a-0632-4d0a-b40f-f0ac3ac12e61
+2022-09-10 01:09:09,103 INFO o.a.j.e.J.JSR223 PostProcessor: response: {"data":{"message":"ID validado com sucesso!","id":"cf54e72a-0632-4d0a-b40f-f0ac3ac12e61","protocol":"acca7bb81682878c"},"service":"api-gateway-trabalho-sd-6bbc65864-stmg9"}
+2022-09-10 01:09:09,105 INFO o.a.j.m.J.JSR223 PreProcessor: id: 01786a4e-a598-4b03-9a78-7fa0212c3582
+2022-09-10 01:09:09,156 INFO o.a.j.e.J.JSR223 PostProcessor: response: {"data":{"message":"ID validado com sucesso!","id":"01786a4e-a598-4b03-9a78-7fa0212c3582","protocol":"9337aece16cfbb2f"},"service":"api-gateway-trabalho-sd-6bbc65864-zhn7v"}
+2022-09-10 01:09:09,157 INFO o.a.j.m.J.JSR223 PreProcessor: id: 04edda60-e117-4794-af87-82b89d3fd73d
+2022-09-10 01:09:09,207 INFO o.a.j.e.J.JSR223 PostProcessor: response: {"data":{"message":"ID validado com sucesso!","id":"04edda60-e117-4794-af87-82b89d3fd73d","protocol":"7c85ebaa8b949ae9"},"service":"api-gateway-trabalho-sd-6bbc65864-stmg9"}
+2022-09-10 01:09:09,226 INFO o.a.j.m.J.JSR223 PreProcessor: id: 2d0010f6-2c46-4dfe-a6ed-40e7570e3829
+2022-09-10 01:09:09,274 INFO o.a.j.e.J.JSR223 PostProcessor: response: {"data":{"message":"ID validado com sucesso!","id":"2d0010f6-2c46-4dfe-a6ed-40e7570e3829","protocol":"fa02abf3f921be5c"},"service":"api-gateway-trabalho-sd-6bbc65864-zhn7v"}
+2022-09-10 01:09:09,276 INFO o.a.j.m.J.JSR223 PreProcessor: id: ef0cef05-b7b4-4ae9-9d1b-e3ebd9861419
+2022-09-10 01:09:09,316 INFO o.a.j.e.J.JSR223 PostProcessor: response: {"data":{"message":"ID validado com sucesso!","id":"ef0cef05-b7b4-4ae9-9d1b-e3ebd9861419","protocol":"76a6711fa8e69ce7"},"service":"api-gateway-trabalho-sd-6bbc65864-stmg9"}
+2022-09-10 01:09:09,317 INFO o.a.j.m.J.JSR223 PreProcessor: id: 69b9f33b-2d1b-420e-b66c-e676c89db652
+2022-09-10 01:09:09,347 INFO o.a.j.e.J.JSR223 PostProcessor: response: {"data":{"message":"ID validado com sucesso!","id":"69b9f33b-2d1b-420e-b66c-e676c89db652","protocol":"b4fae377771e9b7b"},"service":"api-gateway-trabalho-sd-6bbc65864-zhn7v"}
+2022-09-10 01:09:09,348 INFO o.a.j.m.J.JSR223 PreProcessor: id: aacc1d61-44b0-47de-b8bc-969c254e77b3
+2022-09-10 01:09:09,377 INFO o.a.j.e.J.JSR223 PostProcessor: response: {"data":{"message":"ID validado com sucesso!","id":"aacc1d61-44b0-47de-b8bc-969c254e77b3","protocol":"9b452364af90866b"},"service":"api-gateway-trabalho-sd-6bbc65864-stmg9"}
+2022-09-10 01:09:09,378 INFO o.a.j.m.J.JSR223 PreProcessor: id: fb6a9546-0e8b-4f94-9105-8f0bef6e2b74
+2022-09-10 01:09:09,417 INFO o.a.j.e.J.JSR223 PostProcessor: response: {"data":{"message":"ID validado com sucesso!","id":"fb6a9546-0e8b-4f94-9105-8f0bef6e2b74","protocol":"429f502ddb70b1f9"},"service":"api-gateway-trabalho-sd-6bbc65864-zhn7v"}
+2022-09-10 01:09:09,419 INFO o.a.j.m.J.JSR223 PreProcessor: id: bf1cf63a-b7ef-45c5-9e48-400ee1715257
+2022-09-10 01:09:09,467 INFO o.a.j.e.J.JSR223 PostProcessor: response: {"data":{"message":"ID validado com sucesso!","id":"bf1cf63a-b7ef-45c5-9e48-400ee1715257","protocol":"85abba65d0419a8e"},"service":"api-gateway-trabalho-sd-6bbc65864-stmg9"}
+2022-09-10 01:09:09,469 INFO o.a.j.m.J.JSR223 PreProcessor: id: be710288-f056-49a7-88ea-d3aefc840d39
+2022-09-10 01:09:09,518 INFO o.a.j.e.J.JSR223 PostProcessor: response: {"data":{"message":"ID validado com sucesso!","id":"be710288-f056-49a7-88ea-d3aefc840d39","protocol":"767ca777b4949837"},"service":"api-gateway-trabalho-sd-6bbc65864-zhn7v"}
+2022-09-10 01:09:09,520 INFO o.a.j.m.J.JSR223 PreProcessor: id: 9979194e-45d5-4007-ac10-e1266306464e
+2022-09-10 01:09:09,560 INFO o.a.j.e.J.JSR223 PostProcessor: response: {"data":{"message":"ID validado com sucesso!","id":"9979194e-45d5-4007-ac10-e1266306464e","protocol":"a3a9a2f33eeaa2bf"},"service":"api-gateway-trabalho-sd-6bbc65864-stmg9"}
+2022-09-10 01:09:09,560 INFO o.a.j.m.J.JSR223 PreProcessor: id: 27e530ec-4064-41e9-965c-cb8d3d563c36
+2022-09-10 01:09:09,605 INFO o.a.j.e.J.JSR223 PostProcessor: response: {"data":{"message":"ID validado com sucesso!","id":"27e530ec-4064-41e9-965c-cb8d3d563c36","protocol":"ca9d06453edb8f0f"},"service":"api-gateway-trabalho-sd-6bbc65864-zhn7v"}
+2022-09-10 01:09:09,607 INFO o.a.j.m.J.JSR223 PreProcessor: id: 4937011e-8f41-4f77-81e8-e142fe70eba8
+2022-09-10 01:09:09,655 INFO o.a.j.e.J.JSR223 PostProcessor: response: {"data":{"message":"ID validado com sucesso!","id":"4937011e-8f41-4f77-81e8-e142fe70eba8","protocol":"954a3c5d62f9b356"},"service":"api-gateway-trabalho-sd-6bbc65864-stmg9"}
+2022-09-10 01:09:09,657 INFO o.a.j.m.J.JSR223 PreProcessor: id: 04677f81-048a-4517-975b-660f611a4eaf
+2022-09-10 01:09:09,707 INFO o.a.j.e.J.JSR223 PostProcessor: response: {"data":{"message":"ID validado com sucesso!","id":"04677f81-048a-4517-975b-660f611a4eaf","protocol":"5102172d9b038119"},"service":"api-gateway-trabalho-sd-6bbc65864-zhn7v"}
+2022-09-10 01:09:09,709 INFO o.a.j.m.J.JSR223 PreProcessor: id: c6191de0-4bfb-4cb7-9833-30882733f077
+2022-09-10 01:09:09,757 INFO o.a.j.e.J.JSR223 PostProcessor: response: {"data":{"message":"ID validado com sucesso!","id":"c6191de0-4bfb-4cb7-9833-30882733f077","protocol":"0879bde230b286d3"},"service":"api-gateway-trabalho-sd-6bbc65864-stmg9"}
+2022-09-10 01:09:09,759 INFO o.a.j.m.J.JSR223 PreProcessor: id: acfd7948-39a2-40f4-8e74-9312058a77ed
+2022-09-10 01:09:09,798 INFO o.a.j.e.J.JSR223 PostProcessor: response: {"data":{"message":"ID validado com sucesso!","id":"acfd7948-39a2-40f4-8e74-9312058a77ed","protocol":"7beca2c99aec837c"},"service":"api-gateway-trabalho-sd-6bbc65864-zhn7v"}
+2022-09-10 01:09:09,799 INFO o.a.j.m.J.JSR223 PreProcessor: id: 7a46da42-2a42-4377-ae34-54d7e41a2fc1
+2022-09-10 01:09:09,837 INFO o.a.j.e.J.JSR223 PostProcessor: response: {"data":{"message":"ID validado com sucesso!","id":"7a46da42-2a42-4377-ae34-54d7e41a2fc1","protocol":"fa073f6dc0418bca"},"service":"api-gateway-trabalho-sd-6bbc65864-stmg9"}
+2022-09-10 01:09:09,838 INFO o.a.j.m.J.JSR223 PreProcessor: id: dbd83e96-335f-4830-8845-1de56e244927
+2022-09-10 01:09:09,872 INFO o.a.j.e.J.JSR223 PostProcessor: response: {"data":{"message":"ID validado com sucesso!","id":"dbd83e96-335f-4830-8845-1de56e244927","protocol":"9a9d16cb5bfa8148"},"service":"api-gateway-trabalho-sd-6bbc65864-zhn7v"}
+2022-09-10 01:09:09,872 INFO o.a.j.m.J.JSR223 PreProcessor: id: a1ba0653-2952-4ad0-962c-66016b025534
+2022-09-10 01:09:09,914 INFO o.a.j.e.J.JSR223 PostProcessor: response: {"data":{"message":"ID validado com sucesso!","id":"a1ba0653-2952-4ad0-962c-66016b025534","protocol":"5ae4e9c25751bb0c"},"service":"api-gateway-trabalho-sd-6bbc65864-stmg9"}
+2022-09-10 01:09:09,916 INFO o.a.j.m.J.JSR223 PreProcessor: id: e485c01e-7538-4784-8244-58e1984e7dfb
+2022-09-10 01:09:09,964 INFO o.a.j.e.J.JSR223 PostProcessor: response: {"data":{"message":"ID validado com sucesso!","id":"e485c01e-7538-4784-8244-58e1984e7dfb","protocol":"569113ee31d6907d"},"service":"api-gateway-trabalho-sd-6bbc65864-zhn7v"}
+2022-09-10 01:09:09,965 INFO o.a.j.m.J.JSR223 PreProcessor: id: 770db20c-1ecc-415c-9268-dfa7523d331c
+2022-09-10 01:09:10,017 INFO o.a.j.e.J.JSR223 PostProcessor: response: {"data":{"message":"ID validado com sucesso!","id":"770db20c-1ecc-415c-9268-dfa7523d331c","protocol":"84672dd72e98819e"},"service":"api-gateway-trabalho-sd-6bbc65864-stmg9"}
+2022-09-10 01:09:10,020 INFO o.a.j.m.J.JSR223 PreProcessor: id: fc7c049d-bec6-45aa-b50b-42fee811c6cd
+2022-09-10 01:09:10,064 INFO o.a.j.e.J.JSR223 PostProcessor: response: {"data":{"message":"ID validado com sucesso!","id":"fc7c049d-bec6-45aa-b50b-42fee811c6cd","protocol":"a2605f728cddb448"},"service":"api-gateway-trabalho-sd-6bbc65864-zhn7v"}
+2022-09-10 01:09:10,064 INFO o.a.j.m.J.JSR223 PreProcessor: id: a59dd0d5-b9d7-4cb9-b2e7-0e8465cd19ad
+2022-09-10 01:09:10,096 INFO o.a.j.e.J.JSR223 PostProcessor: response: {"data":{"message":"ID validado com sucesso!","id":"a59dd0d5-b9d7-4cb9-b2e7-0e8465cd19ad","protocol":"520a12ac160f9ca5"},"service":"api-gateway-trabalho-sd-6bbc65864-stmg9"}
+2022-09-10 01:09:10,096 INFO o.a.j.m.J.JSR223 PreProcessor: id: cbb30c97-7036-4cb4-8caa-342fe1592039
+2022-09-10 01:09:10,140 INFO o.a.j.e.J.JSR223 PostProcessor: response: {"data":{"message":"ID validado com sucesso!","id":"cbb30c97-7036-4cb4-8caa-342fe1592039","protocol":"97b421e07fe985fa"},"service":"api-gateway-trabalho-sd-6bbc65864-zhn7v"}
+2022-09-10 01:09:10,142 INFO o.a.j.m.J.JSR223 PreProcessor: id: d63b7d34-4cc2-49e4-9835-5bf0987c6e46
+2022-09-10 01:09:10,180 INFO o.a.j.e.J.JSR223 PostProcessor: response: {"data":{"message":"ID validado com sucesso!","id":"d63b7d34-4cc2-49e4-9835-5bf0987c6e46","protocol":"3f996441da43a52b"},"service":"api-gateway-trabalho-sd-6bbc65864-stmg9"}
+2022-09-10 01:09:10,181 INFO o.a.j.m.J.JSR223 PreProcessor: id: 56ab2e52-6e19-42a4-b200-a8a064c878d6
+2022-09-10 01:09:10,224 INFO o.a.j.e.J.JSR223 PostProcessor: response: {"data":{"message":"ID validado com sucesso!","id":"56ab2e52-6e19-42a4-b200-a8a064c878d6","protocol":"5ceb8444bc79a4e5"},"service":"api-gateway-trabalho-sd-6bbc65864-zhn7v"}
+2022-09-10 01:09:10,225 INFO o.a.j.m.J.JSR223 PreProcessor: id: 06355669-a11d-4b90-816a-8df33cbaf4ef
+2022-09-10 01:09:10,257 INFO o.a.j.e.J.JSR223 PostProcessor: response: {"data":{"message":"ID validado com sucesso!","id":"06355669-a11d-4b90-816a-8df33cbaf4ef","protocol":"d5a5bfe213d88c04"},"service":"api-gateway-trabalho-sd-6bbc65864-stmg9"}
+2022-09-10 01:09:10,258 INFO o.a.j.m.J.JSR223 PreProcessor: id: 652ab24a-d355-4255-947d-7650e696ca46
+2022-09-10 01:09:10,288 INFO o.a.j.e.J.JSR223 PostProcessor: response: {"data":{"message":"ID validado com sucesso!","id":"652ab24a-d355-4255-947d-7650e696ca46","protocol":"17ce4567526aa518"},"service":"api-gateway-trabalho-sd-6bbc65864-zhn7v"}
+2022-09-10 01:09:10,289 INFO o.a.j.m.J.JSR223 PreProcessor: id: 2727a2d4-ce35-4e16-8c83-865291372897
+2022-09-10 01:09:10,321 INFO o.a.j.e.J.JSR223 PostProcessor: response: {"data":{"message":"ID validado com sucesso!","id":"2727a2d4-ce35-4e16-8c83-865291372897","protocol":"62d0fdb24e6dbbd9"},"service":"api-gateway-trabalho-sd-6bbc65864-stmg9"}
+2022-09-10 01:09:10,322 INFO o.a.j.m.J.JSR223 PreProcessor: id: 0dfd3eaf-1bf0-48d5-a0f0-8508fd2bb2d1
+2022-09-10 01:09:10,363 INFO o.a.j.e.J.JSR223 PostProcessor: response: {"data":{"message":"ID validado com sucesso!","id":"0dfd3eaf-1bf0-48d5-a0f0-8508fd2bb2d1","protocol":"74f0ec2d3f0b9ecf"},"service":"api-gateway-trabalho-sd-6bbc65864-zhn7v"}
+2022-09-10 01:09:10,365 INFO o.a.j.m.J.JSR223 PreProcessor: id: e5bbe076-16a1-43ac-954d-2b9b1a15e964
+2022-09-10 01:09:10,414 INFO o.a.j.e.J.JSR223 PostProcessor: response: {"data":{"message":"ID validado com sucesso!","id":"e5bbe076-16a1-43ac-954d-2b9b1a15e964","protocol":"b2318bd8144590f0"},"service":"api-gateway-trabalho-sd-6bbc65864-stmg9"}
+2022-09-10 01:09:10,415 INFO o.a.j.m.J.JSR223 PreProcessor: id: f33bd9b6-9de6-4d01-82f5-89c35e86b0f7
+2022-09-10 01:09:10,463 INFO o.a.j.e.J.JSR223 PostProcessor: response: {"data":{"message":"ID validado com sucesso!","id":"f33bd9b6-9de6-4d01-82f5-89c35e86b0f7","protocol":"26581139948aa341"},"service":"api-gateway-trabalho-sd-6bbc65864-zhn7v"}
+2022-09-10 01:09:10,465 INFO o.a.j.m.J.JSR223 PreProcessor: id: b93658d0-4d85-4b41-9b76-677386f3cb47
+2022-09-10 01:09:10,513 INFO o.a.j.e.J.JSR223 PostProcessor: response: {"data":{"message":"ID validado com sucesso!","id":"b93658d0-4d85-4b41-9b76-677386f3cb47","protocol":"ae678755d9c3bc7e"},"service":"api-gateway-trabalho-sd-6bbc65864-stmg9"}
+2022-09-10 01:09:10,514 INFO o.a.j.m.J.JSR223 PreProcessor: id: 20202cee-4ff0-481b-90da-369c92a505ac
+2022-09-10 01:09:10,558 INFO o.a.j.e.J.JSR223 PostProcessor: response: {"data":{"message":"ID validado com sucesso!","id":"20202cee-4ff0-481b-90da-369c92a505ac","protocol":"f59ac9844252bcf5"},"service":"api-gateway-trabalho-sd-6bbc65864-zhn7v"}
+2022-09-10 01:09:10,559 INFO o.a.j.m.J.JSR223 PreProcessor: id: 745df714-42da-4302-b0c6-045200e29652
+2022-09-10 01:09:10,595 INFO o.a.j.e.J.JSR223 PostProcessor: response: {"data":{"message":"ID validado com sucesso!","id":"745df714-42da-4302-b0c6-045200e29652","protocol":"5d2c61af2d8b88c8"},"service":"api-gateway-trabalho-sd-6bbc65864-stmg9"}
+2022-09-10 01:09:10,595 INFO o.a.j.m.J.JSR223 PreProcessor: id: 87991d33-3c1d-4763-8f2b-de60bc701573
+2022-09-10 01:09:10,646 INFO o.a.j.e.J.JSR223 PostProcessor: response: {"data":{"message":"ID validado com sucesso!","id":"87991d33-3c1d-4763-8f2b-de60bc701573","protocol":"4cbbec40de8591ee"},"service":"api-gateway-trabalho-sd-6bbc65864-zhn7v"}
+2022-09-10 01:09:10,648 INFO o.a.j.m.J.JSR223 PreProcessor: id: f6241893-61ca-4f02-bf8d-c632f77e59c3
+2022-09-10 01:09:10,698 INFO o.a.j.e.J.JSR223 PostProcessor: response: {"data":{"message":"ID validado com sucesso!","id":"f6241893-61ca-4f02-bf8d-c632f77e59c3","protocol":"cacfeb3c92009c0f"},"service":"api-gateway-trabalho-sd-6bbc65864-stmg9"}
+2022-09-10 01:09:10,699 INFO o.a.j.m.J.JSR223 PreProcessor: id: 3fa8297f-e7a1-48bd-9396-f3c44bacd224
+2022-09-10 01:09:10,735 INFO o.a.j.e.J.JSR223 PostProcessor: response: {"data":{"message":"ID validado com sucesso!","id":"3fa8297f-e7a1-48bd-9396-f3c44bacd224","protocol":"3726dc6ad2dda21e"},"service":"api-gateway-trabalho-sd-6bbc65864-zhn7v"}
+2022-09-10 01:09:10,736 INFO o.a.j.m.J.JSR223 PreProcessor: id: 4407bf19-7834-46ee-9a55-ba4a46f4b188
+2022-09-10 01:09:10,768 INFO o.a.j.e.J.JSR223 PostProcessor: response: {"data":{"message":"ID validado com sucesso!","id":"4407bf19-7834-46ee-9a55-ba4a46f4b188","protocol":"d633536046678114"},"service":"api-gateway-trabalho-sd-6bbc65864-stmg9"}
+2022-09-10 01:09:10,769 INFO o.a.j.m.J.JSR223 PreProcessor: id: 6c31ac20-03bb-42c7-a375-8b7290bc83f0
+2022-09-10 01:09:10,800 INFO o.a.j.e.J.JSR223 PostProcessor: response: {"data":{"message":"ID validado com sucesso!","id":"6c31ac20-03bb-42c7-a375-8b7290bc83f0","protocol":"8fb898a110cbbca9"},"service":"api-gateway-trabalho-sd-6bbc65864-zhn7v"}
+2022-09-10 01:09:10,801 INFO o.a.j.m.J.JSR223 PreProcessor: id: 4998833a-d722-4ade-845c-1064e04b40a6
+2022-09-10 01:09:10,841 INFO o.a.j.e.J.JSR223 PostProcessor: response: {"data":{"message":"ID validado com sucesso!","id":"4998833a-d722-4ade-845c-1064e04b40a6","protocol":"bc20c0737e02b0e0"},"service":"api-gateway-trabalho-sd-6bbc65864-stmg9"}
+2022-09-10 01:09:10,843 INFO o.a.j.m.J.JSR223 PreProcessor: id: 33cf4dcd-8971-419d-b4ba-16f73812f4a9
+2022-09-10 01:09:10,875 INFO o.a.j.e.J.JSR223 PostProcessor: response: {"data":{"message":"ID validado com sucesso!","id":"33cf4dcd-8971-419d-b4ba-16f73812f4a9","protocol":"3a7b04380daa9b48"},"service":"api-gateway-trabalho-sd-6bbc65864-zhn7v"}
+2022-09-10 01:09:10,876 INFO o.a.j.m.J.JSR223 PreProcessor: id: 91c52dde-be5a-490b-845f-a5ee63f35cfe
+2022-09-10 01:09:10,906 INFO o.a.j.e.J.JSR223 PostProcessor: response: {"data":{"message":"ID validado com sucesso!","id":"91c52dde-be5a-490b-845f-a5ee63f35cfe","protocol":"7741fe0d4ddeb606"},"service":"api-gateway-trabalho-sd-6bbc65864-stmg9"}
+2022-09-10 01:09:10,907 INFO o.a.j.m.J.JSR223 PreProcessor: id: 8c950dcb-bfac-40b8-8234-ec57f5313fea
+2022-09-10 01:09:10,938 INFO o.a.j.e.J.JSR223 PostProcessor: response: {"data":{"message":"ID validado com sucesso!","id":"8c950dcb-bfac-40b8-8234-ec57f5313fea","protocol":"8496b8ee9f518fdd"},"service":"api-gateway-trabalho-sd-6bbc65864-zhn7v"}
+2022-09-10 01:09:10,939 INFO o.a.j.m.J.JSR223 PreProcessor: id: 83c176ce-aa27-4397-b187-a3eb23b4a95f
+2022-09-10 01:09:10,969 INFO o.a.j.e.J.JSR223 PostProcessor: response: {"data":{"message":"ID validado com sucesso!","id":"83c176ce-aa27-4397-b187-a3eb23b4a95f","protocol":"0f5b4c1b86afbdaf"},"service":"api-gateway-trabalho-sd-6bbc65864-stmg9"}
+2022-09-10 01:09:10,969 INFO o.a.j.m.J.JSR223 PreProcessor: id: 6a9cc597-12a1-4917-8216-e63a4ce8bd62
+2022-09-10 01:09:11,008 INFO o.a.j.e.J.JSR223 PostProcessor: response: {"data":{"message":"ID validado com sucesso!","id":"6a9cc597-12a1-4917-8216-e63a4ce8bd62","protocol":"bd33603af3159338"},"service":"api-gateway-trabalho-sd-6bbc65864-zhn7v"}
+2022-09-10 01:09:11,010 INFO o.a.j.m.J.JSR223 PreProcessor: id: 2790e890-e930-4ef9-a429-d149ff4c4cb2
+2022-09-10 01:09:11,056 INFO o.a.j.e.J.JSR223 PostProcessor: response: {"data":{"message":"ID validado com sucesso!","id":"2790e890-e930-4ef9-a429-d149ff4c4cb2","protocol":"85f7e00a8ce5894a"},"service":"api-gateway-trabalho-sd-6bbc65864-stmg9"}
+2022-09-10 01:09:11,058 INFO o.a.j.m.J.JSR223 PreProcessor: id: c39cd479-5cfb-48e8-8c59-ec9f843ff301
+2022-09-10 01:09:11,101 INFO o.a.j.e.J.JSR223 PostProcessor: response: {"data":{"message":"ID validado com sucesso!","id":"c39cd479-5cfb-48e8-8c59-ec9f843ff301","protocol":"4de469fcfd839ef0"},"service":"api-gateway-trabalho-sd-6bbc65864-zhn7v"}
+2022-09-10 01:09:11,102 INFO o.a.j.m.J.JSR223 PreProcessor: id: 3f992a19-2a44-4dd4-8716-8c105612753a
+2022-09-10 01:09:11,141 INFO o.a.j.e.J.JSR223 PostProcessor: response: {"data":{"message":"ID validado com sucesso!","id":"3f992a19-2a44-4dd4-8716-8c105612753a","protocol":"017e07286e79b8ec"},"service":"api-gateway-trabalho-sd-6bbc65864-stmg9"}
+2022-09-10 01:09:11,142 INFO o.a.j.m.J.JSR223 PreProcessor: id: 0095829a-0b0c-451c-9fc3-4df30dd0acbc
+2022-09-10 01:09:11,183 INFO o.a.j.e.J.JSR223 PostProcessor: response: {"data":{"message":"ID validado com sucesso!","id":"0095829a-0b0c-451c-9fc3-4df30dd0acbc","protocol":"7d0478589c6aa73d"},"service":"api-gateway-trabalho-sd-6bbc65864-zhn7v"}
+2022-09-10 01:09:11,184 INFO o.a.j.m.J.JSR223 PreProcessor: id: 7e08ecaa-7adc-4187-bded-ec45c57f61ff
+2022-09-10 01:09:11,224 INFO o.a.j.e.J.JSR223 PostProcessor: response: {"data":{"message":"ID validado com sucesso!","id":"7e08ecaa-7adc-4187-bded-ec45c57f61ff","protocol":"4f5b87bc0fab9ebd"},"service":"api-gateway-trabalho-sd-6bbc65864-stmg9"}
+2022-09-10 01:09:11,225 INFO o.a.j.m.J.JSR223 PreProcessor: id: dcd71976-3b54-41af-be13-46873bb524e3
+2022-09-10 01:09:11,268 INFO o.a.j.e.J.JSR223 PostProcessor: response: {"data":{"message":"ID validado com sucesso!","id":"dcd71976-3b54-41af-be13-46873bb524e3","protocol":"1ac387079e85b419"},"service":"api-gateway-trabalho-sd-6bbc65864-zhn7v"}
+2022-09-10 01:09:11,269 INFO o.a.j.m.J.JSR223 PreProcessor: id: 8ec36e66-fb83-4ee4-b893-32b634aa3940
+2022-09-10 01:09:11,314 INFO o.a.j.e.J.JSR223 PostProcessor: response: {"data":{"message":"ID validado com sucesso!","id":"8ec36e66-fb83-4ee4-b893-32b634aa3940","protocol":"5a999c0d26f2b7ac"},"service":"api-gateway-trabalho-sd-6bbc65864-stmg9"}
+2022-09-10 01:09:11,315 INFO o.a.j.m.J.JSR223 PreProcessor: id: ccd6a7b5-04ec-4768-8f68-ef0e9cc29438
+2022-09-10 01:09:11,352 INFO o.a.j.e.J.JSR223 PostProcessor: response: {"data":{"message":"ID validado com sucesso!","id":"ccd6a7b5-04ec-4768-8f68-ef0e9cc29438","protocol":"fffa15b4bbc19688"},"service":"api-gateway-trabalho-sd-6bbc65864-zhn7v"}
+2022-09-10 01:09:11,353 INFO o.a.j.m.J.JSR223 PreProcessor: id: 27bdcfba-29fd-4b94-a6f2-d08214a08138
+2022-09-10 01:09:11,389 INFO o.a.j.e.J.JSR223 PostProcessor: response: {"data":{"message":"ID validado com sucesso!","id":"27bdcfba-29fd-4b94-a6f2-d08214a08138","protocol":"675ac0b8e8d691e4"},"service":"api-gateway-trabalho-sd-6bbc65864-stmg9"}
+2022-09-10 01:09:11,389 INFO o.a.j.m.J.JSR223 PreProcessor: id: bb971b29-88e1-4217-92ea-7ab00b1e65a2
+2022-09-10 01:09:11,434 INFO o.a.j.e.J.JSR223 PostProcessor: response: {"data":{"message":"ID validado com sucesso!","id":"bb971b29-88e1-4217-92ea-7ab00b1e65a2","protocol":"5b50639d69bab609"},"service":"api-gateway-trabalho-sd-6bbc65864-zhn7v"}
+2022-09-10 01:09:11,436 INFO o.a.j.m.J.JSR223 PreProcessor: id: dce8a9df-657a-4f88-b7f4-7f112446f4e4
+2022-09-10 01:09:11,475 INFO o.a.j.e.J.JSR223 PostProcessor: response: {"data":{"message":"ID validado com sucesso!","id":"dce8a9df-657a-4f88-b7f4-7f112446f4e4","protocol":"9905f87b0d7dbfe7"},"service":"api-gateway-trabalho-sd-6bbc65864-stmg9"}
+2022-09-10 01:09:11,476 INFO o.a.j.m.J.JSR223 PreProcessor: id: f078f8aa-dd56-405f-8958-8d801c9af926
+2022-09-10 01:09:11,520 INFO o.a.j.e.J.JSR223 PostProcessor: response: {"data":{"message":"ID validado com sucesso!","id":"f078f8aa-dd56-405f-8958-8d801c9af926","protocol":"8fd10e4e5553b909"},"service":"api-gateway-trabalho-sd-6bbc65864-zhn7v"}
+2022-09-10 01:09:11,522 INFO o.a.j.m.J.JSR223 PreProcessor: id: eeeefb8e-c71c-42be-99ea-ef2e5bf24c78
+2022-09-10 01:09:11,558 INFO o.a.j.e.J.JSR223 PostProcessor: response: {"data":{"message":"ID validado com sucesso!","id":"eeeefb8e-c71c-42be-99ea-ef2e5bf24c78","protocol":"268d3d13771aa29f"},"service":"api-gateway-trabalho-sd-6bbc65864-stmg9"}
+2022-09-10 01:09:11,558 INFO o.a.j.m.J.JSR223 PreProcessor: id: 0d562050-3680-47e5-98c4-d2100d61ed17
+2022-09-10 01:09:11,589 INFO o.a.j.e.J.JSR223 PostProcessor: response: {"data":{"message":"ID validado com sucesso!","id":"0d562050-3680-47e5-98c4-d2100d61ed17","protocol":"c6accf21728d9fc4"},"service":"api-gateway-trabalho-sd-6bbc65864-zhn7v"}
+2022-09-10 01:09:11,590 INFO o.a.j.m.J.JSR223 PreProcessor: id: 4a68c3bb-c261-4b89-9ebd-0efb5afa0c5b
+2022-09-10 01:09:11,619 INFO o.a.j.e.J.JSR223 PostProcessor: response: {"data":{"message":"ID validado com sucesso!","id":"4a68c3bb-c261-4b89-9ebd-0efb5afa0c5b","protocol":"4abc4f6d1796995e"},"service":"api-gateway-trabalho-sd-6bbc65864-stmg9"}
+2022-09-10 01:09:11,620 INFO o.a.j.m.J.JSR223 PreProcessor: id: 8f62ac61-1477-40ad-9279-7ae926c74789
+2022-09-10 01:09:11,661 INFO o.a.j.e.J.JSR223 PostProcessor: response: {"data":{"message":"ID validado com sucesso!","id":"8f62ac61-1477-40ad-9279-7ae926c74789","protocol":"ee4f9557953dae64"},"service":"api-gateway-trabalho-sd-6bbc65864-zhn7v"}
+2022-09-10 01:09:11,662 INFO o.a.j.m.J.JSR223 PreProcessor: id: 4253f086-f787-4415-8e0c-87345c0fded7
+2022-09-10 01:09:11,710 INFO o.a.j.e.J.JSR223 PostProcessor: response: {"data":{"message":"ID validado com sucesso!","id":"4253f086-f787-4415-8e0c-87345c0fded7","protocol":"a7b0834e037d802a"},"service":"api-gateway-trabalho-sd-6bbc65864-stmg9"}
+2022-09-10 01:09:11,711 INFO o.a.j.m.J.JSR223 PreProcessor: id: 036fc0da-5b99-455e-a5b5-3698ef53bcb4
+2022-09-10 01:09:11,761 INFO o.a.j.e.J.JSR223 PostProcessor: response: {"data":{"message":"ID validado com sucesso!","id":"036fc0da-5b99-455e-a5b5-3698ef53bcb4","protocol":"fb004a298f04829e"},"service":"api-gateway-trabalho-sd-6bbc65864-zhn7v"}
+2022-09-10 01:09:11,763 INFO o.a.j.m.J.JSR223 PreProcessor: id: 61447881-b9b0-48c3-a550-69bf52e03ed9
+2022-09-10 01:09:11,802 INFO o.a.j.e.J.JSR223 PostProcessor: response: {"data":{"message":"ID validado com sucesso!","id":"61447881-b9b0-48c3-a550-69bf52e03ed9","protocol":"9a6ed4599ba28dea"},"service":"api-gateway-trabalho-sd-6bbc65864-stmg9"}
+2022-09-10 01:09:11,802 INFO o.a.j.m.J.JSR223 PreProcessor: id: 969ed4e1-ec90-4fd7-8696-8cad4c9d6977
+2022-09-10 01:09:11,836 INFO o.a.j.e.J.JSR223 PostProcessor: response: {"data":{"message":"ID validado com sucesso!","id":"969ed4e1-ec90-4fd7-8696-8cad4c9d6977","protocol":"7fdc77fc55508b51"},"service":"api-gateway-trabalho-sd-6bbc65864-zhn7v"}
+2022-09-10 01:09:11,837 INFO o.a.j.m.J.JSR223 PreProcessor: id: f9fb4686-741f-43d2-8486-3a39f61776c5
+2022-09-10 01:09:11,880 INFO o.a.j.e.J.JSR223 PostProcessor: response: {"data":{"message":"ID validado com sucesso!","id":"f9fb4686-741f-43d2-8486-3a39f61776c5","protocol":"8ed20c8927f89352"},"service":"api-gateway-trabalho-sd-6bbc65864-stmg9"}
+2022-09-10 01:09:11,881 INFO o.a.j.m.J.JSR223 PreProcessor: id: 20a028af-ca13-4bcb-bf3b-dc11380cb353
+2022-09-10 01:09:11,934 INFO o.a.j.e.J.JSR223 PostProcessor: response: {"data":{"message":"ID validado com sucesso!","id":"20a028af-ca13-4bcb-bf3b-dc11380cb353","protocol":"0df6747e0f088f3c"},"service":"api-gateway-trabalho-sd-6bbc65864-zhn7v"}
+2022-09-10 01:09:11,936 INFO o.a.j.m.J.JSR223 PreProcessor: id: b304733a-3b73-4380-bd16-c70f4fc9f311
+2022-09-10 01:09:11,977 INFO o.a.j.e.J.JSR223 PostProcessor: response: {"data":{"message":"ID validado com sucesso!","id":"b304733a-3b73-4380-bd16-c70f4fc9f311","protocol":"0f1df8f2931ea934"},"service":"api-gateway-trabalho-sd-6bbc65864-stmg9"}
+2022-09-10 01:09:11,978 INFO o.a.j.m.J.JSR223 PreProcessor: id: e6d0b17b-203c-408a-b56c-87d3b6a9b12d
+2022-09-10 01:09:12,024 INFO o.a.j.e.J.JSR223 PostProcessor: response: {"data":{"message":"ID validado com sucesso!","id":"e6d0b17b-203c-408a-b56c-87d3b6a9b12d","protocol":"9ccbef831227befe"},"service":"api-gateway-trabalho-sd-6bbc65864-zhn7v"}
+2022-09-10 01:09:12,025 INFO o.a.j.m.J.JSR223 PreProcessor: id: c52bb936-1461-4947-abf5-a1316975c88c
+2022-09-10 01:09:12,060 INFO o.a.j.e.J.JSR223 PostProcessor: response: {"data":{"message":"ID validado com sucesso!","id":"c52bb936-1461-4947-abf5-a1316975c88c","protocol":"2612bcf802808c23"},"service":"api-gateway-trabalho-sd-6bbc65864-stmg9"}
+2022-09-10 01:09:12,061 INFO o.a.j.m.J.JSR223 PreProcessor: id: f9a13922-fdfa-4e0d-935a-831a11352094
+2022-09-10 01:09:12,103 INFO o.a.j.e.J.JSR223 PostProcessor: response: {"data":{"message":"ID validado com sucesso!","id":"f9a13922-fdfa-4e0d-935a-831a11352094","protocol":"ecc83c9c0fd2a0fb"},"service":"api-gateway-trabalho-sd-6bbc65864-zhn7v"}
+2022-09-10 01:09:12,103 INFO o.a.j.m.J.JSR223 PreProcessor: id: 811c66fb-9865-4ec4-abe6-45eb23973a5b
+2022-09-10 01:09:12,146 INFO o.a.j.e.J.JSR223 PostProcessor: response: {"data":{"message":"ID validado com sucesso!","id":"811c66fb-9865-4ec4-abe6-45eb23973a5b","protocol":"caa89cb2d3dba3ec"},"service":"api-gateway-trabalho-sd-6bbc65864-stmg9"}
+2022-09-10 01:09:12,148 INFO o.a.j.m.J.JSR223 PreProcessor: id: 4f258e0f-45a8-4b2c-8404-4768e044e781
+2022-09-10 01:09:12,198 INFO o.a.j.e.J.JSR223 PostProcessor: response: {"data":{"message":"ID validado com sucesso!","id":"4f258e0f-45a8-4b2c-8404-4768e044e781","protocol":"d05782647881bf00"},"service":"api-gateway-trabalho-sd-6bbc65864-zhn7v"}
+2022-09-10 01:09:12,199 INFO o.a.j.m.J.JSR223 PreProcessor: id: 868f7137-aa70-479a-a822-a58f49b4883b
+2022-09-10 01:09:12,248 INFO o.a.j.e.J.JSR223 PostProcessor: response: {"data":{"message":"ID validado com sucesso!","id":"868f7137-aa70-479a-a822-a58f49b4883b","protocol":"f5c9377b1c909335"},"service":"api-gateway-trabalho-sd-6bbc65864-stmg9"}
+2022-09-10 01:09:12,249 INFO o.a.j.m.J.JSR223 PreProcessor: id: 4cea3342-62f1-4028-abbc-33f6493de690
+2022-09-10 01:09:12,300 INFO o.a.j.e.J.JSR223 PostProcessor: response: {"data":{"message":"ID validado com sucesso!","id":"4cea3342-62f1-4028-abbc-33f6493de690","protocol":"c669e596da69bbe2"},"service":"api-gateway-trabalho-sd-6bbc65864-zhn7v"}
+2022-09-10 01:09:12,302 INFO o.a.j.m.J.JSR223 PreProcessor: id: a1612478-c4a9-4130-8d76-3dcb7f3656dd
+2022-09-10 01:09:12,337 INFO o.a.j.e.J.JSR223 PostProcessor: response: {"data":{"message":"ID validado com sucesso!","id":"a1612478-c4a9-4130-8d76-3dcb7f3656dd","protocol":"954b57aaf2f093f8"},"service":"api-gateway-trabalho-sd-6bbc65864-stmg9"}
+2022-09-10 01:09:12,337 INFO o.a.j.m.J.JSR223 PreProcessor: id: f8e64aab-0834-47ad-bce8-9570200a136f
+2022-09-10 01:09:12,367 INFO o.a.j.e.J.JSR223 PostProcessor: response: {"data":{"message":"ID validado com sucesso!","id":"f8e64aab-0834-47ad-bce8-9570200a136f","protocol":"b9c8d518410db456"},"service":"api-gateway-trabalho-sd-6bbc65864-zhn7v"}
+2022-09-10 01:09:12,368 INFO o.a.j.m.J.JSR223 PreProcessor: id: 44b9b57c-4a55-4130-9ac0-c3268eb9a762
+2022-09-10 01:09:12,407 INFO o.a.j.e.J.JSR223 PostProcessor: response: {"data":{"message":"ID validado com sucesso!","id":"44b9b57c-4a55-4130-9ac0-c3268eb9a762","protocol":"2a657036da29a231"},"service":"api-gateway-trabalho-sd-6bbc65864-stmg9"}
+2022-09-10 01:09:12,408 INFO o.a.j.m.J.JSR223 PreProcessor: id: 53d1a2e8-6a99-490d-96c9-b12a5ddcb199
+2022-09-10 01:09:12,457 INFO o.a.j.e.J.JSR223 PostProcessor: response: {"data":{"message":"ID validado com sucesso!","id":"53d1a2e8-6a99-490d-96c9-b12a5ddcb199","protocol":"1c181bb78e5a82b1"},"service":"api-gateway-trabalho-sd-6bbc65864-zhn7v"}
+2022-09-10 01:09:12,458 INFO o.a.j.m.J.JSR223 PreProcessor: id: 09b1d64f-259f-4b85-bef5-ef2bb5e261c6
+2022-09-10 01:09:12,504 INFO o.a.j.e.J.JSR223 PostProcessor: response: {"data":{"message":"ID validado com sucesso!","id":"09b1d64f-259f-4b85-bef5-ef2bb5e261c6","protocol":"aa12265eb89b8200"},"service":"api-gateway-trabalho-sd-6bbc65864-stmg9"}
+2022-09-10 01:09:12,505 INFO o.a.j.m.J.JSR223 PreProcessor: id: 73d3e82a-edd7-45aa-b943-b736692decb3
+2022-09-10 01:09:12,554 INFO o.a.j.e.J.JSR223 PostProcessor: response: {"data":{"message":"ID validado com sucesso!","id":"73d3e82a-edd7-45aa-b943-b736692decb3","protocol":"4b3a84c54e5abef9"},"service":"api-gateway-trabalho-sd-6bbc65864-zhn7v"}
+2022-09-10 01:09:12,556 INFO o.a.j.m.J.JSR223 PreProcessor: id: 657dfb51-035a-4ba7-a66f-b5fc70bff17a
+2022-09-10 01:09:12,594 INFO o.a.j.e.J.JSR223 PostProcessor: response: {"data":{"message":"ID validado com sucesso!","id":"657dfb51-035a-4ba7-a66f-b5fc70bff17a","protocol":"ab00bca960c98c8c"},"service":"api-gateway-trabalho-sd-6bbc65864-stmg9"}
+2022-09-10 01:09:12,594 INFO o.a.j.m.J.JSR223 PreProcessor: id: 718649e8-73bb-450b-8501-5e081ce2be14
+2022-09-10 01:09:12,634 INFO o.a.j.e.J.JSR223 PostProcessor: response: {"data":{"message":"ID validado com sucesso!","id":"718649e8-73bb-450b-8501-5e081ce2be14","protocol":"144507b5afc0a467"},"service":"api-gateway-trabalho-sd-6bbc65864-zhn7v"}
+2022-09-10 01:09:12,636 INFO o.a.j.m.J.JSR223 PreProcessor: id: 7a74640b-024e-4b78-adf1-fee132ace3db
+2022-09-10 01:09:12,686 INFO o.a.j.e.J.JSR223 PostProcessor: response: {"data":{"message":"ID validado com sucesso!","id":"7a74640b-024e-4b78-adf1-fee132ace3db","protocol":"fc5202aa22f4b755"},"service":"api-gateway-trabalho-sd-6bbc65864-stmg9"}
+2022-09-10 01:09:12,687 INFO o.a.j.m.J.JSR223 PreProcessor: id: 8550e340-c2eb-40b0-9b77-6c689e7ebc52
+2022-09-10 01:09:12,727 INFO o.a.j.e.J.JSR223 PostProcessor: response: {"data":{"message":"ID validado com sucesso!","id":"8550e340-c2eb-40b0-9b77-6c689e7ebc52","protocol":"1ac0f913fb2cab63"},"service":"api-gateway-trabalho-sd-6bbc65864-zhn7v"}
+2022-09-10 01:09:12,728 INFO o.a.j.m.J.JSR223 PreProcessor: id: 24518df7-5368-4415-ade4-a3cdbbc210f1
+2022-09-10 01:09:12,767 INFO o.a.j.e.J.JSR223 PostProcessor: response: {"data":{"message":"ID validado com sucesso!","id":"24518df7-5368-4415-ade4-a3cdbbc210f1","protocol":"fd953564f922b0f4"},"service":"api-gateway-trabalho-sd-6bbc65864-stmg9"}
+2022-09-10 01:09:12,768 INFO o.a.j.m.J.JSR223 PreProcessor: id: ca5d3cb8-e2ed-46bb-949d-99a9b872d7d4
+2022-09-10 01:09:12,804 INFO o.a.j.e.J.JSR223 PostProcessor: response: {"data":{"message":"ID validado com sucesso!","id":"ca5d3cb8-e2ed-46bb-949d-99a9b872d7d4","protocol":"c4ed52395717afea"},"service":"api-gateway-trabalho-sd-6bbc65864-zhn7v"}
+2022-09-10 01:09:12,805 INFO o.a.j.m.J.JSR223 PreProcessor: id: ea6cab62-8f6d-4918-809c-3515fc82437d
+2022-09-10 01:09:12,844 INFO o.a.j.e.J.JSR223 PostProcessor: response: {"data":{"message":"ID validado com sucesso!","id":"ea6cab62-8f6d-4918-809c-3515fc82437d","protocol":"210496288a868708"},"service":"api-gateway-trabalho-sd-6bbc65864-stmg9"}
+2022-09-10 01:09:12,846 INFO o.a.j.m.J.JSR223 PreProcessor: id: 3b4e0258-c0e0-4af1-b6f5-d53b4e517d8b
+2022-09-10 01:09:12,893 INFO o.a.j.e.J.JSR223 PostProcessor: response: {"data":{"message":"ID validado com sucesso!","id":"3b4e0258-c0e0-4af1-b6f5-d53b4e517d8b","protocol":"39227fb7ac6f9543"},"service":"api-gateway-trabalho-sd-6bbc65864-zhn7v"}
+2022-09-10 01:09:12,894 INFO o.a.j.m.J.JSR223 PreProcessor: id: 2f49538b-ca67-4650-af22-05f8ee5a074a
+2022-09-10 01:09:12,929 INFO o.a.j.e.J.JSR223 PostProcessor: response: {"data":{"message":"ID validado com sucesso!","id":"2f49538b-ca67-4650-af22-05f8ee5a074a","protocol":"40924312d8dfbbe2"},"service":"api-gateway-trabalho-sd-6bbc65864-stmg9"}
+2022-09-10 01:09:12,929 INFO o.a.j.m.J.JSR223 PreProcessor: id: 5b524b39-7806-4872-ba0e-9284f829053c
+2022-09-10 01:09:12,973 INFO o.a.j.e.J.JSR223 PostProcessor: response: {"data":{"message":"ID validado com sucesso!","id":"5b524b39-7806-4872-ba0e-9284f829053c","protocol":"f680e417cb78817b"},"service":"api-gateway-trabalho-sd-6bbc65864-zhn7v"}
+2022-09-10 01:09:12,975 INFO o.a.j.m.J.JSR223 PreProcessor: id: 5c362353-49b2-4157-b3fe-9211ee50b23c
+2022-09-10 01:09:13,023 INFO o.a.j.e.J.JSR223 PostProcessor: response: {"data":{"message":"ID validado com sucesso!","id":"5c362353-49b2-4157-b3fe-9211ee50b23c","protocol":"bc3fbde90819806e"},"service":"api-gateway-trabalho-sd-6bbc65864-stmg9"}
+2022-09-10 01:09:13,025 INFO o.a.j.m.J.JSR223 PreProcessor: id: a9478b90-a35c-4a7e-8b36-263c97cc6929
+2022-09-10 01:09:13,067 INFO o.a.j.e.J.JSR223 PostProcessor: response: {"data":{"message":"ID validado com sucesso!","id":"a9478b90-a35c-4a7e-8b36-263c97cc6929","protocol":"50ecfb3570dbbb48"},"service":"api-gateway-trabalho-sd-6bbc65864-zhn7v"}
+2022-09-10 01:09:13,068 INFO o.a.j.m.J.JSR223 PreProcessor: id: 9ce08422-d8f6-4702-93c3-edaa60014bc9
+2022-09-10 01:09:13,114 INFO o.a.j.e.J.JSR223 PostProcessor: response: {"data":{"message":"ID validado com sucesso!","id":"9ce08422-d8f6-4702-93c3-edaa60014bc9","protocol":"d546c0502e8baf60"},"service":"api-gateway-trabalho-sd-6bbc65864-stmg9"}
+2022-09-10 01:09:13,115 INFO o.a.j.m.J.JSR223 PreProcessor: id: 0b6b30d5-3420-405e-b3c6-e23fbfb36e15
+2022-09-10 01:09:13,153 INFO o.a.j.e.J.JSR223 PostProcessor: response: {"data":{"message":"ID validado com sucesso!","id":"0b6b30d5-3420-405e-b3c6-e23fbfb36e15","protocol":"91ef828e37019def"},"service":"api-gateway-trabalho-sd-6bbc65864-zhn7v"}
+2022-09-10 01:09:13,154 INFO o.a.j.m.J.JSR223 PreProcessor: id: c19ed4ed-f144-4ef5-92bf-3fa8ae52cb06
+2022-09-10 01:09:13,193 INFO o.a.j.e.J.JSR223 PostProcessor: response: {"data":{"message":"ID validado com sucesso!","id":"c19ed4ed-f144-4ef5-92bf-3fa8ae52cb06","protocol":"7aa4a56f11bcb807"},"service":"api-gateway-trabalho-sd-6bbc65864-stmg9"}
+2022-09-10 01:09:13,194 INFO o.a.j.m.J.JSR223 PreProcessor: id: 6f5b41bd-a301-40d4-b327-2763d7ad48d1
+2022-09-10 01:09:13,232 INFO o.a.j.e.J.JSR223 PostProcessor: response: {"data":{"message":"ID validado com sucesso!","id":"6f5b41bd-a301-40d4-b327-2763d7ad48d1","protocol":"de3a22dfe4a0b0c7"},"service":"api-gateway-trabalho-sd-6bbc65864-zhn7v"}
+2022-09-10 01:09:13,232 INFO o.a.j.m.J.JSR223 PreProcessor: id: 58fe804d-5aca-4f60-b98c-7cc63380ee63
+2022-09-10 01:09:13,272 INFO o.a.j.e.J.JSR223 PostProcessor: response: {"data":{"message":"ID validado com sucesso!","id":"58fe804d-5aca-4f60-b98c-7cc63380ee63","protocol":"e802c9451ce18218"},"service":"api-gateway-trabalho-sd-6bbc65864-stmg9"}
+2022-09-10 01:09:13,273 INFO o.a.j.m.J.JSR223 PreProcessor: id: 673956ae-5171-48a1-86f8-6aed52b2ebc3
+2022-09-10 01:09:13,316 INFO o.a.j.e.J.JSR223 PostProcessor: response: {"data":{"message":"ID validado com sucesso!","id":"673956ae-5171-48a1-86f8-6aed52b2ebc3","protocol":"fa70b3a9e4069ca0"},"service":"api-gateway-trabalho-sd-6bbc65864-zhn7v"}
+2022-09-10 01:09:13,317 INFO o.a.j.m.J.JSR223 PreProcessor: id: 3c0dd565-ace5-4140-843d-3805defc5799
+2022-09-10 01:09:13,353 INFO o.a.j.e.J.JSR223 PostProcessor: response: {"data":{"message":"ID validado com sucesso!","id":"3c0dd565-ace5-4140-843d-3805defc5799","protocol":"3d22c024b9f787fe"},"service":"api-gateway-trabalho-sd-6bbc65864-stmg9"}
+2022-09-10 01:09:13,355 INFO o.a.j.m.J.JSR223 PreProcessor: id: 2fe141c3-de54-401f-943c-b349a735e4f8
+2022-09-10 01:09:13,400 INFO o.a.j.e.J.JSR223 PostProcessor: response: {"data":{"message":"ID validado com sucesso!","id":"2fe141c3-de54-401f-943c-b349a735e4f8","protocol":"83f99e9df61b8114"},"service":"api-gateway-trabalho-sd-6bbc65864-zhn7v"}
+2022-09-10 01:09:13,401 INFO o.a.j.m.J.JSR223 PreProcessor: id: 34d5cade-41c0-4948-862b-2eb91ff657cd
+2022-09-10 01:09:13,442 INFO o.a.j.e.J.JSR223 PostProcessor: response: {"data":{"message":"ID validado com sucesso!","id":"34d5cade-41c0-4948-862b-2eb91ff657cd","protocol":"de27a753f2e59955"},"service":"api-gateway-trabalho-sd-6bbc65864-stmg9"}
+2022-09-10 01:09:13,443 INFO o.a.j.m.J.JSR223 PreProcessor: id: d36954b6-3b40-4410-a98c-642d8e309a0a
+2022-09-10 01:09:13,481 INFO o.a.j.e.J.JSR223 PostProcessor: response: {"data":{"message":"ID validado com sucesso!","id":"d36954b6-3b40-4410-a98c-642d8e309a0a","protocol":"9b61207d9939af7f"},"service":"api-gateway-trabalho-sd-6bbc65864-zhn7v"}
+2022-09-10 01:09:13,481 INFO o.a.j.m.J.JSR223 PreProcessor: id: 7f665ae7-7b51-47c8-ba60-51abfe11df60
+2022-09-10 01:09:13,523 INFO o.a.j.e.J.JSR223 PostProcessor: response: {"data":{"message":"ID validado com sucesso!","id":"7f665ae7-7b51-47c8-ba60-51abfe11df60","protocol":"3d8b3bba86f6a259"},"service":"api-gateway-trabalho-sd-6bbc65864-stmg9"}
+2022-09-10 01:09:13,524 INFO o.a.j.m.J.JSR223 PreProcessor: id: 2d437e54-1aa0-4bf9-abd0-cccdfe174161
+2022-09-10 01:09:13,559 INFO o.a.j.e.J.JSR223 PostProcessor: response: {"data":{"message":"ID validado com sucesso!","id":"2d437e54-1aa0-4bf9-abd0-cccdfe174161","protocol":"3403792b96d3bac4"},"service":"api-gateway-trabalho-sd-6bbc65864-zhn7v"}
+2022-09-10 01:09:13,560 INFO o.a.j.m.J.JSR223 PreProcessor: id: 8cf08b44-4b07-46ed-9795-df3fb142c13a
+2022-09-10 01:09:13,591 INFO o.a.j.e.J.JSR223 PostProcessor: response: {"data":{"message":"ID validado com sucesso!","id":"8cf08b44-4b07-46ed-9795-df3fb142c13a","protocol":"8de95fc371bbb87a"},"service":"api-gateway-trabalho-sd-6bbc65864-stmg9"}
+2022-09-10 01:09:13,592 INFO o.a.j.m.J.JSR223 PreProcessor: id: aaac0ec4-8f6c-4e21-9aa0-f9c293041683
+2022-09-10 01:09:13,623 INFO o.a.j.e.J.JSR223 PostProcessor: response: {"data":{"message":"ID validado com sucesso!","id":"aaac0ec4-8f6c-4e21-9aa0-f9c293041683","protocol":"f03f66cbd521b281"},"service":"api-gateway-trabalho-sd-6bbc65864-zhn7v"}
+2022-09-10 01:09:13,624 INFO o.a.j.m.J.JSR223 PreProcessor: id: 8bab60e6-05f1-435d-9fd4-f0aab38622d1
+2022-09-10 01:09:13,656 INFO o.a.j.e.J.JSR223 PostProcessor: response: {"data":{"message":"ID validado com sucesso!","id":"8bab60e6-05f1-435d-9fd4-f0aab38622d1","protocol":"d19ad93be0f39434"},"service":"api-gateway-trabalho-sd-6bbc65864-stmg9"}
+2022-09-10 01:09:13,656 INFO o.a.j.m.J.JSR223 PreProcessor: id: 079283b8-c8d8-4741-b713-b93b0e5cbfad
+2022-09-10 01:09:13,702 INFO o.a.j.e.J.JSR223 PostProcessor: response: {"data":{"message":"ID validado com sucesso!","id":"079283b8-c8d8-4741-b713-b93b0e5cbfad","protocol":"bce18f81e111959b"},"service":"api-gateway-trabalho-sd-6bbc65864-zhn7v"}
+2022-09-10 01:09:13,703 INFO o.a.j.m.J.JSR223 PreProcessor: id: 64e83383-cec6-404c-9977-9f404a09dc5a
+2022-09-10 01:09:13,756 INFO o.a.j.e.J.JSR223 PostProcessor: response: {"data":{"message":"ID validado com sucesso!","id":"64e83383-cec6-404c-9977-9f404a09dc5a","protocol":"9ff3d68042ceb633"},"service":"api-gateway-trabalho-sd-6bbc65864-stmg9"}
+2022-09-10 01:09:13,757 INFO o.a.j.m.J.JSR223 PreProcessor: id: 9932d019-53a4-42d1-9d71-84393247febd
+2022-09-10 01:09:13,804 INFO o.a.j.e.J.JSR223 PostProcessor: response: {"data":{"message":"ID validado com sucesso!","id":"9932d019-53a4-42d1-9d71-84393247febd","protocol":"095721154f05a2b4"},"service":"api-gateway-trabalho-sd-6bbc65864-zhn7v"}
+2022-09-10 01:09:13,805 INFO o.a.j.m.J.JSR223 PreProcessor: id: 574f94f6-537c-4a66-8641-f69e249e99e4
+2022-09-10 01:09:13,844 INFO o.a.j.e.J.JSR223 PostProcessor: response: {"data":{"message":"ID validado com sucesso!","id":"574f94f6-537c-4a66-8641-f69e249e99e4","protocol":"30c67b6cbb739208"},"service":"api-gateway-trabalho-sd-6bbc65864-stmg9"}
+2022-09-10 01:09:13,844 INFO o.a.j.m.J.JSR223 PreProcessor: id: 0cee8a51-9b98-472d-92d8-fa8073fb53c7
+2022-09-10 01:09:13,883 INFO o.a.j.e.J.JSR223 PostProcessor: response: {"data":{"message":"ID validado com sucesso!","id":"0cee8a51-9b98-472d-92d8-fa8073fb53c7","protocol":"8de3684e9c2a97ba"},"service":"api-gateway-trabalho-sd-6bbc65864-zhn7v"}
+2022-09-10 01:09:13,884 INFO o.a.j.m.J.JSR223 PreProcessor: id: 1c266666-363e-4002-900f-0e0e75dc67a4
+2022-09-10 01:09:13,932 INFO o.a.j.e.J.JSR223 PostProcessor: response: {"data":{"message":"ID validado com sucesso!","id":"1c266666-363e-4002-900f-0e0e75dc67a4","protocol":"1d7aa36930d4afeb"},"service":"api-gateway-trabalho-sd-6bbc65864-stmg9"}
+2022-09-10 01:09:13,933 INFO o.a.j.m.J.JSR223 PreProcessor: id: fd4d16d8-64a6-4a00-b8dd-766ee2ab89ae
+2022-09-10 01:09:13,983 INFO o.a.j.e.J.JSR223 PostProcessor: response: {"data":{"message":"ID validado com sucesso!","id":"fd4d16d8-64a6-4a00-b8dd-766ee2ab89ae","protocol":"6273ecc09aabbb33"},"service":"api-gateway-trabalho-sd-6bbc65864-zhn7v"}
+2022-09-10 01:09:13,983 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Thread Group 1-1
+2022-09-10 01:09:13,984 INFO o.a.j.t.JMeterThread: Thread finished: Thread Group 1-1
+2022-09-10 01:09:13,986 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2022-09-10 01:09:13,988 INFO o.a.j.r.Summariser: summary +    200 in 00:00:09 =   22.8/s Avg:    40 Min:    28 Max:    62 Err:     0 (0.00%) Active: 0 Started: 1 Finished: 1
+2022-09-10 01:09:13,989 INFO o.a.j.r.Summariser: summary =    201 in 00:00:10 =   20.0/s Avg:    41 Min:    28 Max:   117 Err:     0 (0.00%)

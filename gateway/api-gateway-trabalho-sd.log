@@ -1,0 +1,14 @@
+
+> node@1.0.0 start /app
+> nodemon server.js
+
+[33m[nodemon] 2.0.19[39m
+[33m[nodemon] to restart at any time, enter `rs`[39m
+[33m[nodemon] watching path(s): *.*[39m
+[33m[nodemon] watching extensions: js,mjs,json[39m
+[32m[nodemon] starting `node server.js`[39m
+2022-09-24T20:51:15.980Z [32minfo[39m: [168fe0fa7ac6] 	Information message
+2022-09-24T20:51:16.035Z [32minfo[39m: [168fe0fa7ac6] 	[BaseController]: /api/v1/user/:id
+2022-09-24T20:51:16.037Z [32minfo[39m: [168fe0fa7ac6] 	[APP_NAME]: undefined
+2022-09-24T20:51:16.037Z [32minfo[39m: [168fe0fa7ac6] 	[ENV]: "prod"
+2022-09-24T20:51:16.044Z [32minfo[39m: [168fe0fa7ac6] 	Servidor rodando na porta 5000

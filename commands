@@ -1,0 +1,26 @@
+##################################################################
+# --COMANDOS PARA AUXILIAR A EXECUÇÃO DOS TESTES
+#
+#  $ source commands
+#
+
+
+##################################################################
+#  --DOCKER-COMPOSE
+# 
+#  --Suber apenas o docker-compose
+#
+#   $ ./start.sh --prod --build --up
+#
+
+##################################################################
+# --KUBERNETES
+#
+# --Suber tudo (Atualizar imagens / atualizar k8s)
+#
+#   $ ./start.sh --prod --build --k8s
+#
+# --Suber o k8s
+#
+#   $ ./start.sh --prod --k8s
+#

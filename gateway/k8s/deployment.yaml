@@ -1,0 +1,53 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+    name: ${ENV_INSTANCE_NAME}
+    labels:
+        app: ${ENV_INSTANCE_NAME}
+spec:
+    replicas: ${ENV_REPLICAS}
+    selector:
+        matchLabels:
+            app: ${ENV_INSTANCE_NAME}
+    template:
+        metadata:
+            labels:
+                app: ${ENV_INSTANCE_NAME}
+        spec:
+            containers:
+            - image: ${ENV_DOCKER_IMAGE_NAME}
+              imagePullPolicy: ${ENV_IMAGE_PULL_POLICY}
+              name: ${ENV_INSTANCE_NAME}
+---
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: ${ENV_INGRESS_NAME}
+spec:
+  rules:
+    - host: ${ENV_HOST_NAME}
+      http:
+        paths:
+          - path: /
+            pathType: Prefix
+            backend:
+              service:
+                name: ${ENV_SERVICE_NAME}
+                port:
+                  number: ${ENV_TARGET_PORT}          
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: ${ENV_SERVICE_NAME}  
+  labels:
+    app: ${ENV_SERVICE_NAME}
+spec:
+  ports:
+  - nodePort: ${ENV_NODE_PORT}
+    port: 80
+    protocol: TCP
+    targetPort: ${ENV_TARGET_PORT}
+  selector:
+    app: ${ENV_INSTANCE_NAME}
+  type: NodePort                  
