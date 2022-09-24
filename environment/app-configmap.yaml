@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: app-configmap
+data:
+    MONGOURI: mongodb://user:abc123@mongo-svc:27017/golangDB?authSource=admin
+    API_GATEWAY_TOKEN: da41edd0-5976-4c26-8e49-a50944245846

@@ -1,4 +1,4 @@
-apiVersion: v1
+apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: trabalho-sd-api
@@ -17,8 +17,11 @@ spec:
       containers:
       - name: trabalho-sd-api
         image: parmavictu/trabalho-sd-api:latest
+        envFrom:
+          - configMapRef:
+              name: app-configmap
         ports:
-        - containerPort: 5000
+          - containerPort: 5000
 ---
 apiVersion: v1
 kind: Service
