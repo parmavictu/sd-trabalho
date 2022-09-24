@@ -5,26 +5,13 @@ _WHERE_AIM=$(pwd)
 
 cd $_ROOT_PATH
 
-export _UTILS="$_ROOT_PATH/sh/utils.sh"
+eval $(minikube docker-env)
 
-source $_UTILS
+docker rmi $(docker images | grep 'none' | awk '{print $3}') &> /dev/null
+docker rmi -f $(docker images | grep trabalho-sd | awk '{print $3}') &> /dev/null
 
-API_IMAGE_PULL_POLICY=$(GetArgument --name='image-pull-policy' "$@")
+docker-compose build --no-cache
 
-if [[ ! -z $_ACCEPTED_ARG ]];then
-    API_IMAGE_PULL_POLICY=$_ALWAYS
-fi
-
-LoggerInfo 'Projeto...'
-
-gateway/deploy.sh "$@"
-
-cd $_ROOT_PATH
-
-backend/deploy.sh "$@"
-
-if $(HasFlag --value='monitoring' --upper-flag='M' "$@") || $(HasFlag --value='all' "$@"); then
-    ./monitoring/k8s/deploy.sh
-fi
+eval $(minikube docker-env -u)
 
 cd $_WHERE_AIM

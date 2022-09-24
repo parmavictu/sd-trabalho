@@ -3,16 +3,16 @@ version: '3.3'
 services:
   backend:
     env_file:
-    - backend/src/config/environment/.env
+    - ./backend/src/config/environment/.env
     image: api-backend-trabalho-sd-image
     build:
-      context: .
-      dockerfile: backend/docker/Dockerfile
+      context: ./backend
+      dockerfile: docker/Dockerfile
 
   gateway:
     env_file:
-    - gateway/src/config/environment/.env
+    - ./gateway/src/config/environment/.env
     image: api-gateway-trabalho-sd-image
     build:
-      context: .
-      dockerfile: gateway/docker/Dockerfile
+      context: ./gateway
+      dockerfile: docker/Dockerfile
