@@ -4,7 +4,12 @@ _ROOT_PATH=$(echo $(ls -l /proc/$$/fd | egrep 'build.k8s.sh' | grep -Po '(?<=-> 
 _WHERE_AIM=$(pwd)
 
 cd $_ROOT_PATH
+
+# Carrega funcoes em Bash.
 source sh/utils.sh
+
+# Carrega ENV's com caminho dos fontes.
+source .env
 
 StartMinikube
 
@@ -20,14 +25,17 @@ if $(HasFlag --value='build' --upper-flag='B' "$@"); then
 fi
 
 if $(HasFlag --value='create' --upper-flag='C' "$@"); then
-    Create ./backend/k8s
-    Create ./gateway/k8s
+#   BACKEND_API_NODE=backend-nodejs
+#   BACKEND_API_GO=backend-go
+#   GATEWAY=gateway
+    Create ./${BACKEND_API_NODE}/k8s
+    Create ./${GATEWAY}/k8s
 elif $(HasFlag --value='delete' --upper-flag='D' "$@"); then
-    Delete ./backend/k8s
-    Delete ./gateway/k8s
+    Delete ./${BACKEND_API_NODE}/k8s
+    Delete ./${GATEWAY}/k8s
 elif $(HasFlag --value='apply' --upper-flag='A' "$@"); then
-    Apply ./backend/k8s
-    Apply ./gateway/k8s
+    Apply ./${BACKEND_API_NODE}/k8s
+    Apply ./${GATEWAY}/k8s
 else
     LoggerError "Flag inválida!"
     echo -e '\n\nUse: build.k8s.sh [OPTIONS]'
