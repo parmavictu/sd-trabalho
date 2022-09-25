@@ -5,10 +5,10 @@ services:
     image: api-backend-trabalho-sd-image
     build:
       context: ./backend
-      dockerfile: docker/Dockerfile
+      dockerfile: ../docker/Dockerfile
 
   gateway:
     image: api-gateway-trabalho-sd-image
     build:
       context: ./gateway
-      dockerfile: docker/Dockerfile
+      dockerfile: ../docker/Dockerfile

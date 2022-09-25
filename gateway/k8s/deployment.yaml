@@ -34,7 +34,7 @@ spec:
               service:
                 name: api-gateway-trabalho-sd-service
                 port:
-                  number: 5000          
+                  number: 8009          
 ---
 apiVersion: v1
 kind: Service
@@ -47,7 +47,7 @@ spec:
   - nodePort: 30000
     port: 80
     protocol: TCP
-    targetPort: 5000
+    targetPort: 8009
   selector:
     app: api-gateway-trabalho-sd
   type: NodePort                  

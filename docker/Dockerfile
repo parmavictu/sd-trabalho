@@ -15,7 +15,7 @@ WORKDIR app/
 
 RUN ls
 
-RUN cat src/config/environment/.env
+RUN echo -e "\n\n$(cat config/environment/.env)\n\n" 
 
 EXPOSE ${PORT}
 
