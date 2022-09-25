@@ -1,14 +1,5 @@
 FROM node:12
 
-RUN echo -e "\n\n\
-#### ENVIRONMENT\n\
-ENV=${ENV}\n\
-DEBUG=${DEBUG}\n\
-PORT=${PORT}\n\
-NODE_ENV=${NODE_ENV}\n\
-SRC_PATH=${SRC_PATH}\n\
-TOKEN_AUTH=${TOKEN_AUTH}\n\n"
-
 USER root
 
 RUN apt-get update && \
@@ -24,10 +15,11 @@ WORKDIR app/
 
 RUN ls
 
-RUN cat package.json | grep start
+RUN echo -e "\n\n$(cat config/environment/.env)\n\n" 
 
 EXPOSE ${PORT}
 
 RUN npm install
 
+# not using an execution list here so we get shell variable substitution
 CMD /bin/bash -c 'npm run start'
