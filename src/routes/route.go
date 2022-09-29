@@ -1,6 +1,7 @@
 package routes
 
 import (
+	"net/http"
 	"trabalho-sd-api/controllers"
 	"trabalho-sd-api/middlewares"
 
@@ -8,7 +9,9 @@ import (
 )
 
 func ConfigRoutes(router *gin.Engine, appController controllers.AppController) *gin.Engine {
-
+	router.GET("/health", func(c *gin.Context) {
+		c.String(http.StatusOK, "running")
+	})
 	router.Use(middlewares.LogInstance())
 	router.Use(middlewares.ValidateApiGatewayheader())
 
