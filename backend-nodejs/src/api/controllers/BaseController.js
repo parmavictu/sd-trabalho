@@ -12,4 +12,8 @@ async function doRequest(req, res, next) {
     return res.status(200).json({message: 'ID validado com sucesso!', id: id, protocol});
 }
 
-module.exports = { doRequest }
+async function doHealth(req, res, next) {
+    return res.status(200).json({status: 'UP'});
+}
+
+module.exports = { doRequest, doHealth }

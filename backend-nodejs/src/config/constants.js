@@ -5,6 +5,7 @@ const HEADERS = {
 
 const ROUTES = {
     API_ROUTE: '/api/v1/valid/user/:id',
+    HEALTH_ROUTE: '/health'
 }
 
 module.exports = { HEADERS, ROUTES }

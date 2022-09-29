@@ -3,7 +3,7 @@ const bodyParser = require('body-parser');
 const errorHandler = require('./errorHandler');
 const meddleware = require('./meddleware');
 const env = require('./environment/env');
-const doRequest = require('./../api/controllers/BaseController').doRequest;
+const {doRequest, doHealth} = require('./../api/controllers/BaseController');
 const constants = require('./constants');
 const logger = require('./logger');
 
@@ -22,6 +22,8 @@ module.exports = () => {
   app.use(meddleware);
   
   app.route(constants.ROUTES.API_ROUTE).get(doRequest);
+
+  app.route(constants.ROUTES.HEALTH_ROUTE).get(doHealth);
 
   app.use(errorHandler);
 

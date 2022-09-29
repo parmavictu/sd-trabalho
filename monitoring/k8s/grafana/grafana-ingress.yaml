@@ -1,7 +1,7 @@
 apiVersion: networking.k8s.io/v1
 kind: Ingress
 metadata:
-  name: monitoring-grafana-trabalho-sd-ingress
+  name: ingress-grafana
   namespace: monitoring
 spec:
   rules:

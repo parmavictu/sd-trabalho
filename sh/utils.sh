@@ -15,14 +15,14 @@ function StartMinikube() {
 
 function Create() {
 
-    if [[ -z $(ls $1 | grep 'deployment.yaml') ]]; then
+    if [[ -z $(ls $1 | grep '.yaml') ]]; then
         return
     fi
 
     if [[ -f $1 ]]; then
         local _DEPLOYMENT=$(cat $1 | grep -A2 Deployment | grep name | awk '{print $2}')
     else
-        local _DEPLOYMENT=$(cat $1/deployment.yaml | grep -A2 Deployment | grep name | awk '{print $2}')
+        local _DEPLOYMENT=$(cat $1/*.yaml | grep -A2 Deployment | grep name | awk '{print $2}')
     fi
 
     local _TMP_FILE=$(RandomFile)
@@ -41,7 +41,7 @@ function Create() {
 }
 
 function Apply() {
-    if [[ -z $(ls $1 | grep 'deployment.yaml') ]]; then
+    if [[ -z $(ls $1 | grep '.yaml') ]]; then
         return
     fi
 
@@ -51,7 +51,7 @@ function Apply() {
 }
 
 function Delete() {
-    if [[ -z $(ls $1 | grep 'deployment.yaml') ]]; then
+    if [[ -z $(ls $1 | grep '.yaml') ]]; then
         return
     fi
 

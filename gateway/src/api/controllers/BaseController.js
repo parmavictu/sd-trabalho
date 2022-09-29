@@ -6,12 +6,12 @@ const { AuthTokenException, UnauthorizedException } = require('./../exceptions')
 var os = require("os");
 var hostname = os.hostname();
 
-logger.info('[BaseController]: ' + ROUTES.API_ROUTE);
+logger.info('[BaseController]: ' + ROUTES.BACKEND_GO_ROUTE);
 
 async function doRequest(req, res, next) {
     const id = req.params.id;
 
-    const url = ROUTES.BACKEND_ROUTE + id;
+    const url = ROUTES.BACKEND_GO_ROUTE;
 
     logger.info('Chamando api: ' + url);
 
@@ -44,4 +44,8 @@ async function doRequest(req, res, next) {
         }).catch((err) => next(err));
 }
 
-module.exports = { doRequest }
+async function doHealth(req, res, next) {
+    return res.status(200).json({status: 'UP'});
+}
+
+module.exports = { doRequest, doHealth }
