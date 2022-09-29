@@ -1,16 +1,6 @@
 version: '3.3'
 
 services:
-  backend:
-    env_file:
-    - .env
-    image: api-backend-trabalho-sd-image
-    build:
-      context: ${BACKEND_API_NODE}
-      dockerfile: docker/Dockerfile
-    depends_on:
-    - database
-
   gateway:
     env_file:
     - .env

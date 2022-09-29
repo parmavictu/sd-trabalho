@@ -34,7 +34,11 @@ spec:
                 initialDelaySeconds: 3
               resources:
                 requests:
-                  cpu: 50m
+                  memory: "10Mi"
+                  cpu: "1m"
+                limits:
+                  memory: "20Mi"
+                  cpu: "2m"
 ---
 apiVersion: networking.k8s.io/v1
 kind: Ingress

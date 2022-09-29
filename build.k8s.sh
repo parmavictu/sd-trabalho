@@ -56,17 +56,24 @@ fi
 # Aplicações Backend
 #
 if $(HasFlag --value='create' --upper-flag='C' "$@"); then
-    Create ./${BACKEND_API_NODE}/k8s
-    Create ./${GATEWAY}/k8s
-    Create ./${BACKEND_API_GO}/k8s
+    if $(HasFlag --value='gateway' --upper-flag='GT' "$@") || $(HasFlag --value='all' --upper-flag='L' "$@"); then
+        Create ./${GATEWAY}/k8s
+    elif $(HasFlag --value='backend' --upper-flag='BK' "$@") || $(HasFlag --value='all' --upper-flag='L' "$@"); then
+        Create ./${BACKEND_API_GO}/k8s
+    fi
 elif $(HasFlag --value='delete' --upper-flag='D' "$@"); then
-    Delete ./${BACKEND_API_NODE}/k8s
-    Delete ./${GATEWAY}/k8s
-    Delete ./${BACKEND_API_GO}/k8s
+    if $(HasFlag --value='gateway' --upper-flag='GT' "$@") || $(HasFlag --value='all' --upper-flag='L' "$@"); then
+        Delete ./${GATEWAY}/k8s
+    elif $(HasFlag --value='backend' --upper-flag='BK' "$@") || $(HasFlag --value='all' --upper-flag='L' "$@"); then
+        Delete ./${BACKEND_API_GO}/k8s
+    fi
 elif $(HasFlag --value='apply' --upper-flag='A' "$@"); then
-    Apply ./${BACKEND_API_NODE}/k8s
-    Apply ./${GATEWAY}/k8s
-    Apply ./${BACKEND_API_GO}/k8s
+    if $(HasFlag --value='gateway' --upper-flag='GT' "$@") || $(HasFlag --value='all' --upper-flag='L' "$@"); then
+        Apply ./${GATEWAY}/k8s
+    elif $(HasFlag --value='backend' --upper-flag='BK' "$@") || $(HasFlag --value='all' --upper-flag='L' "$@"); then
+        Apply ./${BACKEND_API_GO}/k8s
+    fi
+
 elif $(HasFlag --value='clear' --upper-flag='CL' "$@"); then
     minikube delete
 else
