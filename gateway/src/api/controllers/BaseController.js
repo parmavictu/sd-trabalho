@@ -9,8 +9,6 @@ var hostname = os.hostname();
 logger.info('[BaseController]: ' + ROUTES.BACKEND_GO_ROUTE);
 
 async function doRequest(req, res, next) {
-    const id = req.params.id;
-
     const url = ROUTES.BACKEND_GO_ROUTE;
 
     logger.info('Chamando api: ' + url);
@@ -37,7 +35,7 @@ async function doRequest(req, res, next) {
 
                 const parsResponse = { data, service: hostname }
 
-                logger.info(`[SUCESSO: [ID]:  ${id}    ${JSON.stringify(parsResponse)}`);
+                logger.info(`[SUCESSO: [ID]:  ${JSON.stringify(parsResponse)}`);
 
                 return res.status(response.status).send(parsResponse);
             }).catch((err) => next(err));

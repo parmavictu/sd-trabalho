@@ -2,11 +2,6 @@ FROM node:12
 
 USER root
 
-RUN apt-get update && \
-    apt-get install -yq tzdata && \
-    ln -fs /usr/share/zoneinfo/America/Sao_Paulo /etc/localtime && \
-    dpkg-reconfigure -f noninteractive tzdata
-
 RUN mkdir app
 
 ADD src/ app/

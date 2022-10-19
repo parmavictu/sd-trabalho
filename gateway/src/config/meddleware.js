@@ -6,6 +6,8 @@ module.exports = (req, res, next) => {
   const { AuthTokenException } = require('../api/exceptions');
   let token = undefined;
 
+  if (req.url === '/health') return next();
+
   try {
     token = process.env.TOKEN_AUTH || env.getEnv('TOKEN_AUTH');
   } catch (error) {}

@@ -22,6 +22,20 @@ spec:
               name: app-configmap
         ports:
           - containerPort: 5000
+        # lifecycle:
+        #   postStart:
+        #     exec:
+        #       command: 
+        #         - "/bin/sh"
+        #         - "-c" 
+        #         - >
+        #           curl --location --request POST 'http://localhost:5000/api/v1/user'
+        #           --header 'x-auth-token: da41edd0-5976-4c26-8e49-a50944245846'
+        #           --header 'Content-Type: application/json'
+        #           --data-raw '{
+        #             "name": "Fulando da Silva",
+        #             "age": 33
+        #           }'
         livenessProbe:
           httpGet:
             path: /health
@@ -35,14 +49,10 @@ spec:
             port: 5000
           periodSeconds: 10
           failureThreshold: 5
-          initialDelaySeconds: 3
+          initialDelaySeconds: 20
         resources:
           requests:
-            memory: "10Mi"
-            cpu: "1m"
-          limits:
-            memory: "20Mi"
-            cpu: "2m"
+            cpu: "25m"
 
 ---
 apiVersion: v1
@@ -69,10 +79,16 @@ spec:
     name: k8s-trabalho-sd-api
   minReplicas: 2
   maxReplicas: 3
+  behavior:
+    scaleDown:
+      policies:
+      - type: Percent
+        value: 20
+        periodSeconds: 60
   metrics:
-    - type: Resource
-      resource:
-        name: cpu
-        target:
-          type: Utilization
-          averageUtilization: 50
+  - type: Resource
+    resource:
+      name: cpu
+      target:
+        type: Utilization
+        averageUtilization: 50

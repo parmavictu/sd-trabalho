@@ -1,62 +1,17 @@
 function StartMinikube() {
     LoggerInfo "Verificando se o minikube está rodando..."
 
-    if [[ ! $(minikube status | grep -i 'running' | wc -l) == 3 ]]; then
+    if [[ $(minikube status | grep -i 'running' | wc -l) == 0 ]]; then
         LoggerInfo "Startando o minikube..."
-        minikube start
+        minikube start --memory 8192 --cpus 4
         
         LoggerInfo "Ativando ingress..."
         minikube addons enable ingress
 
-        DSTR=$(date -u)
-        minikube ssh 'sudo date --set="$DSTR"'
-    fi
-}
+        minikube addons enable metrics-server
 
-function Create() {
-
-    if [[ -z $(ls $1 | grep '.yaml') ]]; then
-        return
-    fi
-
-    if [[ -f $1 ]]; then
-        local _DEPLOYMENT=$(cat $1 | grep -A2 Deployment | grep name | awk '{print $2}')
-    else
-        local _DEPLOYMENT=$(cat $1/*.yaml | grep -A2 Deployment | grep name | awk '{print $2}')
-    fi
-
-    local _TMP_FILE=$(RandomFile)
-
-    kubectl get deploy &> $_TMP_FILE
-
-    if [[ $(cat $_TMP_FILE | grep $_DEPLOYMENT | wc -l) == 0 ]]; then
-        kubectl create -f $1
-    else
-        LoggerError 'Já existem um deploy.'
-        echo
-        cat $_TMP_FILE
-    fi
-
-    rm $_TMP_FILE
-}
-
-function Apply() {
-    if [[ -z $(ls $1 | grep '.yaml') ]]; then
-        return
-    fi
-
-    if [[ $(kubectl get deploy | grep 'trabalho-sd' | wc -l) -gt 0 ]]; then
-        kubectl apply -f $1
-    fi
-}
-
-function Delete() {
-    if [[ -z $(ls $1 | grep '.yaml') ]]; then
-        return
-    fi
-
-    if [[ $(kubectl get deploy | grep 'trabalho-sd' | wc -l) -gt 0 ]]; then
-        kubectl delete -f $1
+        LoggerInfo "Ativando metricas..."
+        kubectl apply -f kube-state-metrics/
     fi
 }
 
@@ -85,16 +40,6 @@ function FormattMessage() {
         echo -e "\n$(date "+%F %H:%M:%S"): [${_YELLOW}INFO${_WHITE}]: $_MENSAGEM"
     fi
 
-}
-
-function RandomFile() {
-	local _UUID=$(uuidgen | sed 's/-//g')
-
-	local _FILE="/tmp/${_UUID}-temp-file.txt"
-
-    touch $_FILE
-
-	echo "$_FILE"
 }
 
 function GetArgument() {
